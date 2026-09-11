@@ -1,0 +1,482 @@
+[
+  {
+    "query": "Discrete Mathematics"
+  },
+  {
+    "query": "average pay per hour for material handler"
+  },
+  {
+    "query": "JavaScript is the easiest way to get the client's local time. I would suggest using an [XMLHttpRequest](http://en.wikipedia.org/wiki/XMLHttpRequest) to send back the local time, and if that fails, fall back to the timezone detected based on their IP address.\n\nAs far as geolocation, I've used [MaxMind GeoIP](http://www.maxmind.com/app/ip-location) on several projects and it works well, though I'm not sure if they provide timezone data. It's a service you pay for and they provide monthly updates to your database. They provide wrappers in several web languages."
+  },
+  {
+    "query": "Google Tech Talk: Linus Torvalds on git\n\n[http://www.youtube.com/watch?v=4XpnKHJAok8](http://www.youtube.com/watch?v=4XpnKHJAok8)\n\nThe Git Wiki's comparison page\n\n[http://git.or.cz/gitwiki/GitSvnComparsion](http://git.or.cz/gitwiki/GitSvnComparsion)"
+  },
+  {
+    "query": "Override postion top of pseudo element on certain page"
+  },
+  {
+    "query": "How do I mirror the curve given below?"
+  },
+  {
+    "query": "SQL Delete with join 4"
+  },
+  {
+    "query": "minimum age to become presi"
+  },
+  {
+    "query": "difference between demand loan and overdraft"
+  },
+  {
+    "query": "I'm having issues getting the C sockets API to work properly in C++ on z/OS.\nAlthough I am including `sys/socket.h`, I still get compile time errors telling me that `AF_INET` is not defined.\nAm I missing something obvious, or is this related to the fact that being on z/OS makes my problems much more complicated?\nI discovered that there is an `#ifdef` that I'm hitting. Apparently z/OS isn't happy unless I define which \"type\" of sockets I'm using with:\n```\n#define _OE_SOCKETS\n```\n\nNow, I personally have no idea what this `_OE_SOCKETS` is actually for, so if any z/OS sockets programmers are out there (all 3 of you), perhaps you could give me a rundown of how this all works?\nTest App\n```\n#include <sys/socket.h>\n\nint main()\n{\n    return AF_INET;\n}\n```\n\nCompile/Link Output:\n```\ncxx -Wc,xplink -Wl,xplink -o inet_test inet.C\n\n\"./inet.C\", line 5.16: CCN5274 (S) The name lookup for \"AF_INET\" did not find a declaration.\nCCN0797(I) Compilation failed for file ./inet.C. Object file not created.\n```\n\nA check of sys/sockets.h does include the definition I need, and as far as I can tell, it is not being blocked by any `#ifdef` statements.\nI have however noticed it contains the following:\n```\n#ifdef __cplusplus\n  extern \"C\" {\n#endif\n```\n\nwhich encapsulates basically the whole file? Not sure if it matters."
+  },
+  {
+    "query": "Engineering Graphics/Drawing"
+  },
+  {
+    "query": "If you are doing \"just extract and run\", you are going to run in security issues.  This is especially true if you are users are running Vista (or later).  is there a reason why you wanted to avoid packaging your applications inside an installer?  Using an installer would alleviate the \"external source\" problem.  You would be able to use .chm files without any problems.\n\nWe use [InstallAware](http://www.installaware.com) to create our install packages.  It's not cheap, but is very good.  If cost is your concern, [WIX](http://wix.sourceforge.net/) is open source and pretty robust.  WIX does have a learning curve, but it's easy to work with."
+  },
+  {
+    "query": "I am working on a collection of classes used for video playback and recording. I have one main class which acts like the public interface, with methods like `play()`, `stop()`, `pause()`, `record()` etc... Then I have workhorse classes which do the video decoding and video encoding. \n\nI just learned about the existence of nested classes in C++, and I'm curious to know what programmers think about using them. I am a little wary and not really sure what the benefits/drawbacks are, but they seem (according to the book I'm reading) to be used in cases such as mine.\n\nThe book suggests that in a scenario like mine, a good solution would be to nest the workhorse classes inside the interface class, so there are no separate files for classes the client is not meant to use, and to avoid any possible naming conflicts? I don't know about these justifications. Nested classes are a new concept to me. Just want to see what programmers think about the issue."
+  },
+  {
+    "query": "Given that indexing is so important as your data set increases in size, can someone explain how indexing works at a database-agnostic level?\n\nFor information on queries to index a field, check out [How do I index a database column](https://stackoverflow.com/questions/1156/)."
+  },
+  {
+    "query": "All editions of `SQL Server 2000/2005/2008` support having multiple databases, each using their own collation sequence.  You don't need the Enterprise version.  \n\nWhen you have a database that uses a collation sequence that is different from default collation for the database server, you will need to take some extra precautions if you use temporary tables and/or table variables.  Temp tables/variables live in the tempdb database, which uses the collation seqyuence used by by the master databases.  Just remember to use \"`COLLATE database_default`\" when defining character fields in the temp tables/variables.  I [blogged about that](http://anotherlab.rajapet.net/2008/07/handling-collation-sequences-with.html) not too long ago, if you want some more details."
+  },
+  {
+    "query": "Drawing a shape"
+  },
+  {
+    "query": "Are you looking to get a list of objects that have a certain attribute? If so, a [list comprehension](http://docs.python.org/tut/node7.html#SECTION007140000000000000000) is the right way to do this.\n\n```\nresult = [obj for obj in listOfObjs if hasattr(obj, 'attributeName')]\n```"
+  },
+  {
+    "query": "Here is a simple static method to do this in C#:\n\n```\npublic static string ToTitleCaseInvariant(string targetString)\n{\n    return System.Threading.Thread.CurrentThread.CurrentCulture.TextInfo.ToTitleCase(targetString);\n}\n```"
+  },
+  {
+    "query": "Information Retrieval"
+  },
+  {
+    "query": "301 Redirect to single url without autosubstitution"
+  },
+  {
+    "query": "Merge libgdx game with android studio project"
+  },
+  {
+    "query": "Error in file(file, \u201crt\u201d) : cannot open the connection"
+  },
+  {
+    "query": "smog test t meaning"
+  },
+  {
+    "query": "[Version Control with Subversion](http://svnbook.red-bean.com/)\n\nA very good resource for source control in general. Not really TortoiseSVN specific, though."
+  },
+  {
+    "query": "There are no HTTP headers that will report the clients timezone so far although it has been suggested to include it in the HTTP specification.\n\nIf it was me, I would probably try to fetch the timezone using clientside JavaScript and then submit it to the server using Ajax or something."
+  },
+  {
+    "query": "Advanced Computer Networks"
+  },
+  {
+    "query": "Social Network Analysis"
+  },
+  {
+    "query": "What is the best way to display `Flash` content in a  WinForms application? I would like to create a user control (similar to the current `PictureBox`) that will be able to display images and flash content.\n\nIt would be great to be able to load the flash content from a  of sorts rather than a file on disk."
+  },
+  {
+    "query": "I'd like to display 100 floating cubes using `DirectX` or `OpenGL`.\n\nI'm looking for either some sample source code, or a description of the technique.  I have trouble getting more one cube to display correctly.\n\nI've combed the net for a good series of tutorials and although they talk about how to do `3D` primitives, what I can't find is information on how to do large numbers of `3D` primitives - `cubes`, `spheres`, `pyramids`, and so forth."
+  },
+  {
+    "query": "[Office 2007 MIME Types for IIS](http://www.bram.us/2007/05/25/office-2007-mime-types-for-iis/)\n\n- `.docm`- `.docx`- `.dotm`- `.dotx`- `.potm`- `.potx`- `.ppam`- `.ppsm`- `.ppsx`- `.pptm`- `.pptx`- `.xlam`- `.xlsb`- `.xlsm`- `.xlsx`- `.xltm`- `.xltx`"
+  },
+  {
+    "query": "How to submit job when Spark jobs have very different executor resource requirements"
+  },
+  {
+    "query": "gvisGeoChart Not Recognizing Lat/Long for Marker"
+  },
+  {
+    "query": "I can get Python to work with Postgresql but I cannot get it to work with MySQL. The main problem is that on the shared hosting account I have I do not have the ability to install things such as Django or PySQL, I generally fail when installing them on my computer so maybe it's good I can't install on the host.\n\nI found [bpgsql](http://barryp.org/software/bpgsql/) really good because it does not require an install, it's a single file that I can look at, read and then call the functions of. Does anybody know of something like this for MySQL?"
+  },
+  {
+    "query": "SVN has 3 main advantages over CVS\n\n- - -"
+  },
+  {
+    "query": "I have designed database tables (normalised, on an MS SQL server) and created a standalone windows front end for an application that will be used by a handful of users to add and edit information. We will add a web interface to allow searching accross our production area at a later date.\n\nI am concerned that if two users start editing the same record then the last to commit the update would be the 'winner' and important information may be lost. A number of solutions come to mind but I'm not sure if I am going to create a bigger headache.\n\n\n1. Do nothing and hope that two users are never going to be editing the same record at the same time. - Might never happed but what if it does?\n2. Editing routine could store a copy of the original data as well as the updates and then compare when the user has finished editing. If they differ show user and comfirm update - Would require two copies of data to be stored.\n3. Add last updated DATETIME column and check it matches when we update, if not then show differences. - requires new column in each of the relevant tables.\n4. Create an editing table that registers when users start editing a record that will be checked and prevent other users from editing same record. - would require carful thought of program flow to prevent deadlocks and records becoming locked if a user crashes out of the program.\n\n\n\nAre there any better solutions or should I go for one of these?"
+  },
+  {
+    "query": "One of the many comparisons:\n\n[http://wiki.scummvm.org/index.php/CVS_vs_SVN](http://wiki.scummvm.org/index.php/CVS_vs_SVN)\n\nNow this is very specific to that project, but a lot of stuff apllies in general.\n\nPro Subversion:\n\n> - - - - - - - - - -"
+  },
+  {
+    "query": "How would I go about generating a list of all possible permutations of a string between x and y characters in length, containing a variable list of characters.\n\nAny language would work, but it should be portable."
+  },
+  {
+    "query": "Our software is both distributed locally to the clients and served from a network share. We opted for generating both a CHM file and a set of HTML files for serving from the network. Users starting the program locally use the CHM file, and users getting their program served from a network share has to use the HTML files.\n\nWe use [Help and Manual](http://www.helpandmanual.com/) and can thus easily produce both types of output from the same source project. The HTML files also contain searching capabilities and doesn't require a web server, so though it isn't an optimal solution, works fine.\n\nSo far all the single-file types for Windows seems broken in one way or another:\n\n- - -"
+  },
+  {
+    "query": "what is the mtn subscriber base in ghana"
+  },
+  {
+    "query": "One guideline is to call [session_regenerate_id](http://www.php.net/session_regenerate_id) every time a session's security level changes.  This helps prevent session hijacking."
+  },
+  {
+    "query": "synonym for assortment"
+  },
+  {
+    "query": "In Ruby on Rails, there's a concept of a [migration](http://wiki.rubyonrails.org/rails/pages/UnderstandingMigrations) -- a quick script to change the database.\n\nYou generate a migration file, which has rules to increase the db version (such as adding a column) and rules to downgrade the version (such as removing a column). Each migration is numbered, and a table keeps track of your current db version.\n\nTo , you run a command called \"db:migrate\" which looks at your version and applies the needed scripts. You can migrate down in a similar way.\n\nThe migration scripts themselves are kept in a version control system -- whenever you change the database you check in a new script, and any developer can apply it to bring their local db to the latest version."
+  },
+  {
+    "query": "If you use a return type of `IEnumerable`, you can return your  variable directly."
+  },
+  {
+    "query": "We're upgrading an existing program from `Win2k/SQL Server 2k` to `Windows 2003 and SQL Server 2005` as well as purchasing a new program that also uses `2k3/2k5`. The vendor says that for us to host both databases we need to get the Enterprise version because the softwares clients use different collation for the connections and only Enterprise supports this.\n\nI cannot find anything on MS's site to support this and, honestly, don't want to pay the extra for Enterprise if the Standard edition works. Am I missing some not talked about feature of SQL Server or is this, as I suspect, a vendor trying to upsell me?"
+  },
+  {
+    "query": "What versioning strategies are available to SignalR hubs with .NET clients?"
+  },
+  {
+    "query": "Sounds to me like you're trying to combine things that shouldn't be combined.  If you need to do different processing in your view depending on if it's a User or Group object you're trying to look at then you should use two different view functions.\n\nOn the other hand there can be common idioms you'd want to extract out of your object_detail type views... perhaps you could use a decorator or just helper functions?\n\n-Dan"
+  },
+  {
+    "query": "Killing other processes is not a healthy thing to do. If your scenario involves something like uninstallation, you could use the [MoveFileEx API function](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-movefileexa) to mark the file for deletion upon next reboot.\n\nIf it appears that you really need to delete a file in use by another process, I'd recommend re-considering the actual problem before considering any solutions."
+  },
+  {
+    "query": "calories in one cup turkey chili"
+  },
+  {
+    "query": "This is one of the \"hard problems\" surrounding development. As far as I know there are no perfect solutions. \n\nIf you only need to store the database structure and not the data you can export the database as SQL queries. (in Enterprise Manager: Right click on database -> Generate SQL script. I recommend setting the \"create one file per object\" on the options tab) You can then commit these text files to svn and make use of svn's diff and logging functions. \n\nI have this tied together with a Batch script that takes a couple parameters and sets up the database. I also added some additional queries that enter default data like user types and the admin user. (If you want more info on this, post something and I can put the script somewhere accessible)\n\nIf you need to keep all of the data as well, I recommend keeping a back up of the database and using Redgate ([http://www.red-gate.com/](http://www.red-gate.com/)) products to do the comparisons. They don't come cheap, but they are worth every penny."
+  },
+  {
+    "query": "We run [Buildbot - Trac](http://buildbot.net/trac) at work. I haven't used it too much since my codebase isn't part of the release cycle yet. But we run the tests on different environments (OSX/Linux/Win) and it sends emails \u2014 and it's written in Python."
+  },
+  {
+    "query": "C and C++ compilers will generate a warning when you compare signed and unsigned types; in your example code, you couldn't make your loop variable unsigned and have the compiler generate code without warnings (assuming said warnings were turned on).\n\nNaturally, you're compiling with warnings turned all the way up, right?\n\nAnd, have you considered compiling with \"treat warnings as errors\" to take it that one step further?\n\nThe downside with using signed numbers is that there's a temptation to overload them so that, for example, the values 0->n are the menu selection, and -1 means nothing's selected - rather than creating a class that has two variables, one to indicate if something is selected and another to store what that selection is.  Before you know it, you're testing for negative one all over the place and the compiler is complaining about how you're wanting to compare the menu selection against the number of menu selections you have - but that's dangerous because they're different types.  So don't do that."
+  },
+  {
+    "query": "I want to print HTML from a C# web service.  The web browser control is overkill, and does not function well in a service environment, nor does it function well on a system with very tight security constraints.  Is there any sort of free `.NET` library that will support the printing of a basic HTML page?  Here is the code I have so far, which does not run properly.\n\n```\npublic void PrintThing(string document)\n{\n    if (Thread.CurrentThread.GetApartmentState() != ApartmentState.STA)\n    {\n        Thread thread =\n            new Thread((ThreadStart) delegate { PrintDocument(document); });\n        thread.SetApartmentState(ApartmentState.STA);\n        thread.Start();\n    }\n    else\n    {\n        PrintDocument(document);\n    }\n}\n\nprotected void PrintDocument(string document)\n{\n    WebBrowser browser = new WebBrowser();\n    browser.DocumentText = document;\n    while (browser.ReadyState != WebBrowserReadyState.Complete)\n    {\n        Application.DoEvents();\n    }\n    browser.Print();\n}\n```\n\n\nThis works fine when called from UI-type threads, but nothing happens when called from a service-type thread.  Changing `Print()` to `ShowPrintPreviewDialog()` yields the following IE script error:\n\n>  `dialogArguments.___IE_PrintType` is null or not an object. URL: `res://ieframe.dll/preview.dlg`\n\nAnd a small empty print preview dialog appears."
+  },
+  {
+    "query": "Data Visualization"
+  },
+  {
+    "query": "You can tell your users to add your From address to their contacts when they complete their order, which, if they do so, will help a lot.\n\nOtherwise, I would try to get a log from some of your users. Sometimes they have details about why it was flagged as spam in the headers of the message, which you could use to tweak the text.\n\nOther things you can try:\n\n- - -"
+  },
+  {
+    "query": "You can print from the command line using the following:\n\n> rundll32.exe\n  %WINDIR%\\System32\\mshtml.dll,PrintHTML\n  \"%1\"\n\nWhere %1 is the file path of the HTML file to be printed.\n\nIf you don't need to print from memory (or can afford to write to the disk in a temp file) you can use:\n\n```\nusing (Process printProcess = new Process())\n{\n    string systemPath = Environment.GetFolderPath(Environment.SpecialFolder.System);\n    printProcess.StartInfo.FileName = systemPath + @\"\\rundll32.exe\";\n    printProcess.StartInfo.Arguments = systemPath + @\"\\mshtml.dll,PrintHTML \"\"\" + fileToPrint + @\"\"\"\";\n    printProcess.Start();\n}\n```\n\n\nN.B. This only works on Windows 2000 and above I think."
+  },
+  {
+    "query": "I was reading [More Joel on Software](https://rads.stackoverflow.com/amzn/click/com/1430209879) when I came across [Joel Spolsky](http://en.wikipedia.org/wiki/Joel_Spolsky) saying something about a particular type of programmer knowing the difference between an `int` and an `Integer` in Java/C# (Object-Oriented Programming Languages).\n\nSo, what is the difference?"
+  },
+  {
+    "query": "How can I handle the deletion of these items from SharedPreferences?"
+  },
+  {
+    "query": "What are the best practices for checking in BIN directories in a collaborative development environment using SVN?  Should project level references be excluded from checkin?  Is it easier to just add all bin directories?\n\nI develop a lot of DotNetNuke sites and it seems that in a multi-developer environment, it's always a huge task to get the environment setup correctly.\n\nThe ultimate goal (of course) is to have a new developer checkout the trunk from SVN, restore the DNN database and have it all just 'work'..."
+  },
+  {
+    "query": "Internet of Things (IoT)"
+  },
+  {
+    "query": "That actually sounds like IIS's `Low` level. If it is, then you won't be able to write to any file, not just the web.config.\n\nHere are the levels from IIS's help file:\n\n> - - - - - - - - - - - - - - - \n\nI would suggest that if you are dead set on having an installer, have it create a `web.config` in memory that the user can save locally and `FTP` up afterward."
+  },
+  {
+    "query": "The default behaviour for error_log() is to output to the Apache error log. If this isn't happening check your php.ini settings for the error_log directive. Leave it unset to use the Apache log file for the current vhost."
+  },
+  {
+    "query": "You have basically two options. Either you write a simple script that will start and parse output from\n\n\n\nto obtain revision number (then generating AssemblyInfo.cs is pretty much straight forward) or just use plugin for CCNET. Here it is:\n\n>  is a plugin for\n  CruiseControl.NET that allows you to\n  generate CruiseControl labels for your\n  builds, based upon the revision number\n  of your Subversion working copy. This\n  can be customised with a prefix and/or\n  major/minor version numbers.[http://code.google.com/p/svnrevisionlabeller/](http://code.google.com/p/svnrevisionlabeller/)\n\nI prefer the first option because it's only roughly 20 lines of code:\n\n```\nusing System;\nusing System.Diagnostics;\n\nnamespace SvnRevisionNumberParserSample\n{\n    class Program\n    {\n        static void Main()\n        {\n            Process p = Process.Start(new ProcessStartInfo()\n                {\n                    FileName = @\"C:\\Program Files\\SlikSvn\\bin\\svn.exe\", // path to your svn.exe\n                    UseShellExecute = false,\n                    RedirectStandardOutput = true,\n                    Arguments = \"info --revision HEAD\",\n                    WorkingDirectory = @\"C:\\MyProject\" // path to your svn working copy\n                });\n\n            // command \"svn.exe info --revision HEAD\" will produce a few lines of output\n            p.WaitForExit();\n\n            // our line starts with \"Revision: \"\n            while (!p.StandardOutput.EndOfStream)\n            {\n                string line = p.StandardOutput.ReadLine();\n                if (line.StartsWith(\"Revision: \"))\n                {\n                    string revision = line.Substring(\"Revision: \".Length);\n                    Console.WriteLine(revision); // show revision number on screen                       \n                    break;\n                }\n            }\n\n            Console.Read();\n        }\n    }\n}\n```"
+  },
+  {
+    "query": "what is a swimming interval"
+  },
+  {
+    "query": "What is the meaning of the ?\n\n> Type safety: The cast from Object to List<Integer> is actually checking against the erased type List\n\nI get this warning when I try to cast an Object to a type with generic information, such as in the following code:\n\n```\nObject object = getMyList();\nList<Integer> list = (List<Integer>) object;\n```"
+  },
+  {
+    "query": "It sounds like ADO/Access is perfect for your needs. It's baked into the MS stack, well seasoned, and multi-user.\n\nYou can programatically create a DB like so:\n\n```\nDim catalog as New ADOX.Catalog\nCatalog.Create(\"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\\\\server\\path\\to\\db.mdb\")\n```\n\n\nYou can then use standard ADO.NET methods to interact with the database."
+  },
+  {
+    "query": "Replace your hyphens with this:\n\n```\n&shy;\n```\n\n\nIt's called a \"soft\" hyphen.\n\n```\ndiv {\r\n  width: 150px;\r\n}\n```\n```\n<div>\r\n  12333&shy;2333&shy;233&shy;23339392&shy;332332323\r\n</div>\n```"
+  },
+  {
+    "query": "I've been using [TortoiseSVN](https://web.archive.org/web/20200229173754/http://tortoisesvn.tigris.org/) in a Windows environment for quite some time.  It seems very feature-complete and nicely integrated into the Windows shell, and more importantly, it's fairly painless to teach to colleagues with little or no experience with source control.  , since we have moved to Windows Vista 64bit, Tortoise has been very buggy and has seemed to cause lots of explorer.exe abnormalities and crashes.  This has happened both with older versions of the software and the latest version (1.5.1 build 13563).\n\nI was curious if anyone has suggestions for other Subversion clients that will run on Windows (specifically Vista 64bit).  Developers here use a variety of text editors so using Visual Studio or Dreamweaver for SVN is not ideal.\n\nI have heard great things about [Cornerstone](http://www.zennaware.com/cornerstone/), and would love something similar for Windows if it exists.\n\n\n---\n\n\n\nI'm correlating the Vista/explorer problems with Tortoise because they normally occur when I'm using the functionality in Tortoise.  Sometimes bringing up the \"merge\" screen will cause the GUI to start acting very strange and eventually hang or crash.\n\nI did not see 1.5.2 -- I'm installing now, maybe that will fix some of my issues."
+  },
+  {
+    "query": "Static config object similar to pythons logging object"
+  },
+  {
+    "query": "I've just set up Sandcastle again. Try installing it (the May 2008 release) and search for SandcastleGui.exe or something similar (it's in the examples folder or so).\n\nClick Add Assembly and add your Assembly or Assemblies, add any .xml Documentation files (the ones generated by the compiler if you enabled that option) and then Build.\n\nIt will take some time, but the result  be worth the effort. It will actually look up stuff from MSDN, so your resulting documentation will also have the Class Inheritance all the way down to System.Object with links to MSDN and stuff.\n\nSandcastle seems a bit complicated at first, especially when you want to use it in an automated build, but I am absolutely sure it will be worth the effort.\n\nAlso have a look at [Sandcastle Help File Builder](http://www.codeplex.com/SHFB), this is a somewhat more advanced GUI for it."
+  },
+  {
+    "query": "It depends on how the property is used. For example, say you have a student object that has a name property. You could use your Get method to pull the name from the database, if it hasn't been retrieved already. This way you are reducing unnecessary calls to the database.\n\nNow let's say you have a private integer counter in your object that counts the number of times the name has been called. You may want to not use the Get method from inside the object because it would produce an invalid count."
+  },
+  {
+    "query": "DXT Texture working despite S3TC not being supported"
+  },
+  {
+    "query": "ruby tuesday nutritional value"
+  },
+  {
+    "query": "Neural Networks and Fuzzy Logic"
+  },
+  {
+    "query": "Saving and loading ArrayLists in Android"
+  },
+  {
+    "query": "Bash array variable expansion inside expect command"
+  },
+  {
+    "query": "I just whipped this up quick in Ruby:\n\n```\ndef perms(x, y, possible_characters)\n  all = [\"\"]\n  current_array = all.clone\n  1.upto(y) { |iteration|\n    next_array = []\n    current_array.each { |string|\n      possible_characters.each { |c|\n        value = string + c\n        next_array.insert next_array.length, value\n        all.insert all.length, value\n      }\n    }\n    current_array = next_array\n  }\n  all.delete_if { |string| string.length < x }\nend\n```\n\n\nYou might look into language API for built in permutation type functions, and you might be able to write more optimized code, but if the numbers are all that high, I'm not sure there is much of a way around having a lot of results.\n\nAnyways, the idea behind the code is start with string of length 0, then keep track of all the strings of length Z where Z is the current size in the iteration.  Then, go through each string and append each character onto each string.  Finally at the end, remove any that were below the x threshold and return the result.\n\nI didn't test it with potentially meaningless input (null character list, weird values of x and y, etc)."
+  },
+  {
+    "query": "In java how can i randomize and int in an array"
+  },
+  {
+    "query": "You can try turning Check-constraints off on the DataSet (it's in its properties), or altering the properties of that relationship, and change the key to a simple reference - up to you."
+  },
+  {
+    "query": "Perhaps this is a little academic and off topic but `hX` tags are probably not the best choice for a tag cloud for reasons of document structure and all that sort of thing.\n\nMaybe `span`s or an `ol` with appropriate class attributes (plus some CSS)?"
+  },
+  {
+    "query": "I'm looking to introduce a unit testing framework into the mix at my job.  We're using Visual Studio 2005 (though we may be moving to 2008 within the next six months) and work primarily in C#. If the framework has some kind of IDE integration that would be best, but I'm open to frameworks that don't have integration but are still relatively simple to get set up.  I'm going to get resistance to it one way or another, so if I can make sure what I'm pushing isn't a pain in the neck, that would help my case.\nThe obvious choice from the research I've done so far points to NUnit, but I'd like to get the impressions of someone who's actually used it before recommending it to my team.\nHas anyone out there used [NUnit](https://en.wikipedia.org/wiki/NUnit)? If so, are there any pitfalls or limitations of which I should be aware? Are there other good options out there? If so, if you've used both NUnit at that, I'd greatly appreciate an idea of the strengths and weaknesses of them."
+  },
+  {
+    "query": "I'll second Diago's answer.  I use TortoiseSVN on Vista x64 pretty heavily.\n\nI did upgrade directly from an older version to 1.5.2 though, and never used 1.5.1.  Have you tried 1.5.2?"
+  },
+  {
+    "query": "I'm with Peter. Developer don't seem to understand passwords. We all pick (and I'm guilty of this too) MD5 or SHA1 because they are fast. Thinking about it ('cuz someone recently pointed it out to me) that doesn't make any sense. We should be picking a hashing algorithm that's stupid slow. I mean, on the scale of things, a busy site will hash passwords what? every 1/2 minute? Who cares if it take 0.8 seconds vs 0.03 seconds server wise? But that extra slowness is huge to prevent all types of common brute-forcish attacks.\nFrom my reading, bcrypt is specifically designed for secure password hashing. It's based on blowfish, and there are many implementation.\nFor PHP, check out [PHP Pass](http://www.openwall.com/phpass/)\nFor anyone doing .NET, check out [BCrypt.NET](http://derekslager.com/blog/posts/2007/10/bcrypt-dotnet-strong-password-hashing-for-dotnet-and-mono.ashx)"
+  },
+  {
+    "query": "egg coddler definition"
+  },
+  {
+    "query": "Variables containing primitive types are passed by value in PHP5. Variables containing objects are passed by reference. There's quite an interesting article from Linux Journal from 2006 which mentions this and other OO differences between 4 and 5.\n\n[http://www.linuxjournal.com/article/9170](http://www.linuxjournal.com/article/9170)"
+  },
+  {
+    "query": "child classes not toggling in jquery"
+  },
+  {
+    "query": "how to fibreglass a roof"
+  },
+  {
+    "query": "What is the difference between [Math.Floor()](http://msdn.microsoft.com/en-us/library/9a6a2sxy.aspx) and [Math.Truncate()](http://msdn.microsoft.com/en-us/library/system.math.truncate.aspx) in .NET?"
+  },
+  {
+    "query": "what is system would consist of glandular tissue that could produce hormones"
+  },
+  {
+    "query": "Cognitive Systems"
+  },
+  {
+    "query": "No, what you're doing is fine. Don't let those people confuse you.\n\nIf you've written the web services with .net then the reference proxies generated by .net are going to be quite suitable. The situation you describe (where you are both producer and consumer) is the ideal situation.\n\nIf you need to connect to a web services that is  at compile time, then you would want a more dynamic approach, where you deduce the 'shape' of the web service. \n\nBut start by using the auto generated proxy class, and don't worry about it until you hit a limitation. And when you do -- come back to stack overflow ;-)"
+  },
+  {
+    "query": "Off the top of my head...\n\n```\n$artist = array(\"the roots\",\"michael jackson\",\"billy idol\",\"more\",\"and more\",\"and_YET_MORE\");\n$count = array(5,3,9,1,1,3);\n$highest = max($count);\nfor (int $x = 0; $x < count($artist); $x++)\n{\n    $normalized = $count[$x] / $highest;\n    $heading = ceil($normalized * 6); // 6 heading types\n    echo \"<h\".$heading.\">\".$artist[$x].\"</h\".$heading.\">\";\n}\n```"
+  },
+  {
+    "query": "what is the minimum education requirement to be licensed in any area of cosmetology"
+  },
+  {
+    "query": "Unix/Linux System Administration"
+  },
+  {
+    "query": "Machine Learning"
+  },
+  {
+    "query": "what is monoculture"
+  },
+  {
+    "query": "The best way that I have found is the [MySQL Migration Toolkit](http://www.mysql.com/products/tools/migration-toolkit/) provided by MySQL.  I have used it successfully for some large migration projects."
+  },
+  {
+    "query": "All memory leaks are resolved by program termination.  \n\nLeak enough memory and the Operating System may decide to resolve the problem on your behalf."
+  },
+  {
+    "query": "With the \"Built in\" stuff, you can't, as using 1.0.* or 1.0.0.* will replace the revision and build numbers with a coded date/timestamp, which is usually also a good way. \n\nFor more info, see the [Assembly Linker](http://msdn2.microsoft.com/en-us/library/c405shex(vs.80).aspx) Documentation in the /v tag.\n\nAs for automatically incrementing numbers, use the AssemblyInfo Task:\n\n[AssemblyInfo Task](http://code.msdn.microsoft.com/AssemblyInfoTaskvers)\n\nThis can be configured to automatically increment the build number.\n\nThere are 2 Gotchas:\n\n\n1. Each of the 4 numbers in the Version string is limited to 65535. This is a Windows Limitation and unlikely to get fixed. Why are build numbers limited to 65535?\n2. Using with with Subversion requires a small change: Using MSBuild to generate assembly version info at build time (including SubVersion fix)\n\n\n\nRetrieving the Version number is then quite easy:\n\n```\nVersion v = Assembly.GetExecutingAssembly().GetName().Version;\nstring About = string.Format(CultureInfo.InvariantCulture, @\"YourApp Version {0}.{1}.{2} (r{3})\", v.Major, v.Minor, v.Build, v.Revision);\n```\n\n\n\n---\n\n\n\nAnd, to clarify: In .net or at least in C#, the build is actually the THIRD number, not the fourth one as some people (for example Delphi Developers who are used to Major.Minor.Release.Build) might expect.\n\nIn .net, it's Major.Minor.Build.Revision."
+  },
+  {
+    "query": "when is the best time to buy a flight ticket"
+  },
+  {
+    "query": "how to strengthen bones and joints"
+  },
+  {
+    "query": "You should almost certainly not be extending the session cookie to be long lived.\n\nAlthough not dealing specifically with rails [this article](http://fishbowl.pastiche.org/2004/01/19/persistent_login_cookie_best_practice) goes to some length to explain 'remember me' best practices.\n\nIn summary though you should:\n\n- - - \n\nThe author also recommends invalidating the random value and resetting the cookie at every login.  Personally I don't like that as you then can't stay logged into a site on two computers.  I would tend to make sure my password changing function also reset the random value thus locking out sessions on other machines. \n\nAs a final note, the advice he gives on making certain functions (password change/email change etc) unavailable to auto authenticated sessions is well worth following but rarely seen in the real world."
+  },
+  {
+    "query": "I've tried to write a string replace function in C, which works on a `char *`, which has been allocated using `malloc()`.  It's a little different in that it will find and replace strings, rather than characters in the starting string.\n\nIt's trivial to do if the search and replace strings are the same length (or the replace string is shorter than the search string), since I have enough space allocated.  If I try to use `realloc()`, I get an error that tells me I am doing a double free - which I don't see how I am, since I am only using `realloc()`.\n\nPerhaps a little code will help:\n\n```\nvoid strrep(char *input, char *search, char *replace) {\n    int searchLen = strlen(search);\n    int replaceLen = strlen(replace);\n    int delta = replaceLen - searchLen;\n    char *find = input;\n\n    while (find = strstr(find, search)) {\n\n        if (delta > 0) {\n            realloc(input, strlen(input) + delta);\n            find = strstr(input, search);            \n        }\n\n        memmove(find + replaceLen, find + searchLen, strlen(input) - (find - input));\n        memmove(find, replace, replaceLen);\n    }\n}\n```\n\n\nThe program works, until I try to `realloc()` in an instance where the replaced string will be longer than the initial string.  (It still kind of works, it just spits out errors as well as the result).\n\nIf it helps, the calling code looks like:\n\n```\n#include <stdio.h>\n#include <string.h>\n#include <stdlib.h>\n\nvoid strrep(char *input, char *search, char *replace);\n\nint main(void) {\n    char *input = malloc(81);\n\n    while ((fgets(input, 81, stdin)) != NULL) {\n        strrep(input, \"Noel\", \"Christmas\");\n    }\n}\n```"
+  },
+  {
+    "query": "Robotics and Automation"
+  },
+  {
+    "query": "It sounds like you've covered all the server-side bases--maybe it's a client issue?  I assume your users have integrated authentication enabled in IE7?  (Tools -> Internet Options -> Advanced -> Security).  This is enabled by default.\n\nAlso, is your site correctly recognized by IE7 as being in the Local Intranet zone?  The IE7 default is to allow automatic logon only in that zone, so users would be prompted if IE thinks your site is on the internet.  I believe using a hostname with a dot in it causes IE to place the site into the Internet zone."
+  },
+  {
+    "query": "How can I monitor an SQL Server database for changes to a table without using triggers or modifying the structure of the database in any way? My preferred programming environment is [.NET](http://en.wikipedia.org/wiki/.NET_Framework) and C#.\n\nI'd like to be able to support any [SQL Server 2000](http://en.wikipedia.org/wiki/Microsoft_SQL_Server#Genesis) SP4 or newer. My application is a bolt-on data visualization for another company's product. Our customer base is in the thousands, so I don't want to have to put in requirements that we modify the third-party vendor's table at every installation.\n\nBy  I mean changes to table data, not changes to table structure.\n\nUltimately, I would like the change to trigger an event in my application, instead of having to check for changes at an interval.\n\n\n---\n\n\n\nThe best course of action given my requirements (no triggers or schema modification, SQL Server 2000 and 2005) seems to be to use the `BINARY_CHECKSUM` function in [T-SQL](http://en.wikipedia.org/wiki/Transact-SQL). The way I plan to implement is this:\n\nEvery X seconds run the following query:\n\n```\nSELECT CHECKSUM_AGG(BINARY_CHECKSUM(*))\nFROM sample_table\nWITH (NOLOCK);\n```\n\n\nAnd compare that against the stored value. If the value has changed, go through the table row by row using the query:\n\n```\nSELECT row_id, BINARY_CHECKSUM(*)\nFROM sample_table\nWITH (NOLOCK);\n```\n\n\nAnd compare the returned checksums against stored values."
+  },
+  {
+    "query": "Back in the old days, Help was not trivial but possible: generate some funky .rtf file with special tags, run it through a compiler, and you got a WinHelp file (.hlp) that actually works really well.\n\nThen, Microsoft decided that WinHelp was not hip and cool anymore and switched to CHM, up to the point they actually axed WinHelp from Vista.\n\nNow, CHM maybe nice, but everyone that tried to open a .chm file on the Network will know the nice \"Navigation to the webpage was canceled\" screen that is caused by security restrictions.\n\nWhile there are ways to make CHM work off the network, this is hardly a good choice, because when a user presses the Help Button he wants help and not have to make some funky settings.\n\nBottom Line: I find CHM absolutely unusable. But with WinHelp not being an option anymore either, I wonder what the alternatives are, especially when it comes to integrate with my Application (i.e. for WinHelp and CHM there are functions that allow you to directly jump to a topic)?\n\nPDF has the disadvantage of requiring the Adobe Reader (or one of the more lightweight ones that not many people use). I could live with that seeing as this is kind of standard nowadays, but can you tell it reliably to jump to a given page/anchor?\n\nHTML files seem to be the best choice, you then just have to deal with different browsers (CSS and stuff).\n\n I am looking to create my own Help Files. As I am a fan of the \"No Setup, Just Extract and Run\" Philosophy, i had that problem many times in the past because many of my users will run it off the network, which causes exactly this problem.\n\nSo i am looking for a more robust and future-proof way to provide help to my users without having to code a different help system for each application i make.\n\nCHM is a really nice format, but that Security Stuff makes it unusable, as a Help system is supposed to provide help to the user, not to generate even more problems."
+  },
+  {
+    "query": "If you can find a professional or some other super-enterprise version of Visual Studio 6.0 - it came with a copy of [MSDE](http://en.wikipedia.org/wiki/MSDE) (Basically the predecessor to SQL Express). I believe MSDE 2000 is still available as a free download from Microsoft, but I don't know if you can migrate directly from 6.5 to 2000.\n\nI think in concept, you won't likely face any danger. Years of practice however tell me that you will always miss some object, permission, or other database item that won't manifest itself immediately. If you can script out the entire dump, the better. As you will be less likely to miss something - and if you do miss something, it can be easily added to the script and fixed. I would avoid any manual steps (other than hitting the enter key once) like the plague."
+  },
+  {
+    "query": "Augmented Reality (AR)"
+  },
+  {
+    "query": "There's a PHP5 \"database migration framework\" called Ruckusing. I haven't used it, but the [examples](http://code.google.com/p/ruckusing/wiki/CompleteExamples) show the idea, if you use the language to create the database as and when needed, you only have to track source files."
+  },
+  {
+    "query": "what is windows d"
+  },
+  {
+    "query": "I want to print the first 10000 prime numbers.\nCan anyone give me the most efficient code for this?\nClarifications:\n\n\n1. It does not matter if your code is inefficient for n >10000.\n2. The size of the code does not matter.\n3. You cannot just hard code the values in any manner."
+  },
+  {
+    "query": "Over a decade since this question and things have moved on. Microsft now has a [Rest API](https://learn.microsoft.com/en-us/exchange/client-developer/exchange-web-services/office-365-rest-apis-for-mail-calendars-and-contacts) that will allow you to easily access this data.\n\n---\n\n\n\nI have not used PHP to do this but have experience in using C# to achieve the same thing.\nThe Outlook API is a way of automating Outlook rather than connecting to Exchange directly. I have previously taken this approach in a C# application and it does work although can be buggy.\nIf you wish to connect directly to the Exchange server you will need to research extended MAPI.\nIn the past I used this wrapper [MAPIEx: Extended MAPI Wrapper](http://www.codeproject.com/KB/IP/CMapiEx.aspx).\nIt is a C# project but I believe you can use some .NET code on a PHP5 Windows server. Alternatively it has a C++ core DLL that you may be a able to use. I have found it to be very good and there are some good example applications.\n\n---\n\n\nSorry for the delay no current way to keep track of posts yet.\nI do agree adding more layer on to your application and relying on 3rd party code can be scary (and rightfully so.)\nToday I read another [interesting post](https://stackoverflow.com/questions/4508/mapi-and-managed-code-experiences) tagged up as MAPI that is on a different subject. The key thing here though is that it has linked to [this important MS article](http://blogs.msdn.com/mstehle/archive/2007/10/03/fyi-why-are-mapi-and-cdo-1-21-not-supported-in-managed-net-code.aspx). I have been unaware of the issues until now on using managed code to interface to MAPI although the C++ code in the component should be unaffected by this error as it is unmanaged.\nThis blog entry also suggests other ways to connect to MAPI/Exchange server. In this case due to these new facts [http://us3.php.net/imap](http://us3.php.net/imap) may be the answer as suggested by the other user."
+  },
+  {
+    "query": "DevOps Technologies"
+  },
+  {
+    "query": "How do I format a string to [title case](http://www.grammar-monster.com/lessons/capital_letters_title_case.htm)?"
+  },
+  {
+    "query": "Compiler Design"
+  },
+  {
+    "query": "Accesing local node.js server from iOS Emulator?"
+  },
+  {
+    "query": "I'm looking for a performant, reasonably robust RNG using no special hardware. It can use mathematical methods (Mersenne Twister, etc), it can \"collect entropy\" from the machine, whatever. On Linux/etc we have a `drand48()` which generates 48 random bits. I'd like a similar function/class for C++ or C# which can generate more than 32 bits of randomness and which low-order bits are equally as random as high-order bits.\n\nIt doesn't have to be cryptographically secure but it must not use or be based on the C-language `rand()` or .NET `System.Random`.\n\nAny source code, links to source, etc. would be appreciated! Failing that, what TYPE of RNG should I be looking for?"
+  },
+  {
+    "query": "To set the  () log, the easiest way to do this would be to do:\n\n```\n<VirtualHost IP:Port>\n   # Stuff,\n   # More Stuff,\n   ErrorLog /path/where/you/want/the/error.log\n</VirtualHost>\n```\n\n\nIf there is no leading \"/\" it is assumed to be relative.\n\n[Apache Error Log Page](http://httpd.apache.org/docs/1.3/mod/core.html#errorlog)"
+  },
+  {
+    "query": "I am porting a game, that was originally written for the Win32 API, to Linux (well, porting the OS X port of the Win32 port to Linux).\n\nI have implemented `QueryPerformanceCounter` by giving the uSeconds since the process start up:     \n\n```\nBOOL QueryPerformanceCounter(LARGE_INTEGER* performanceCount)\n{\n    gettimeofday(&currentTimeVal, NULL);\n    performanceCount->QuadPart = (currentTimeVal.tv_sec - startTimeVal.tv_sec);\n    performanceCount->QuadPart *= (1000 * 1000);\n    performanceCount->QuadPart += (currentTimeVal.tv_usec - startTimeVal.tv_usec);\n\n    return true;\n}\n```\n\n\nThis, coupled with `QueryPerformanceFrequency()` giving a constant 1000000 as the frequency, works well , giving me a 64-bit variable that contains `uSeconds` since the program's start-up.\n\nSo  I don't want to discover it works differently if the kernel was compiled in a certain way or anything like that. I am fine with it being non-portable to something other than Linux, however."
+  },
+  {
+    "query": "Target div once user has finished dragging element"
+  },
+  {
+    "query": "I'm not a PHP dev but Google says that PHP 5+ can instantiate COM components. If you can install Outlook on a box you could write a PHP web service around the COM component to handle the requests you need. \n\n```\n$outlook = COM(\"Outlook.Application\")\n```\n\n\n[Outlook API referance](http://msdn.microsoft.com/en-us/library/aa193231.aspx)"
+  },
+  {
+    "query": "what is a perma marker"
+  },
+  {
+    "query": "how long does oshlen take to arrive"
+  },
+  {
+    "query": "I have been using the 64Bit version of TortoiseSVN for ages and I have never had issues with it on Windows 64Bit or Vista 64Bit. I am currently not aware of any other similiar SVN clients that do work on Vista. Is it possible the problem could lie within the configuration of TortoiseSVN or even the installation of Vista? Is the problem occurring on Vista native or SP 1?"
+  },
+  {
+    "query": "Engineering Physics"
+  },
+  {
+    "query": "If the fact that the first button is used by default is consistent across browsers, put them the right way around in the source code, and then use CSS to switch their apparent positions.\n\n`float` them left and right to switch them around visually, for example."
+  },
+  {
+    "query": "Back button in Application bar"
+  },
+  {
+    "query": "If you have the ability to use WScript.Shell then you can just execute pscp.exe from the [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/) package. Obviously this is less then ideal but it will get the job done and let you use SCP/SFTP in classic ASP."
+  },
+  {
+    "query": "How do I make it so `mailto:` links will be registered with my program?\nHow would I then handle that event in my program?\nMost of the solutions I found from a quick Google search are how to do this manually, but I need to do this automatically for users of my program if they click a button, such as \"set as default email client\".\n#Edit:\nRemoved reference to Delphi, because the answer is independent of your language."
+  },
+  {
+    "query": "I'm partway to my solution with this entry on MSDN (don't know how I couldn't find it before).\n\nUser/Machine Hive\nSubkeys and values entered under this hive will be installed under the HKEY_CURRENT_USER hive when a user chooses \"Just Me\" or the HKEY_USERS hive or when a user chooses \"Everyone\" during installation.\n\n[Registry Editor](http://msdn.microsoft.com/en-us/library/x6kd89c5(VS.80).aspx) [Archive of MSDN Article](http://web.archive.org/web/20100112132447/http://msdn.microsoft.com/en-us/library/x6kd89c5(VS.80).aspx)"
+  },
+  {
+    "query": "including the OracleClient dll file with release version"
+  },
+  {
+    "query": "when is it the best time to take levothyroxine medication"
+  },
+  {
+    "query": "could you catch chlamydia from having yeast infection"
+  },
+  {
+    "query": "what is intervention training"
+  },
+  {
+    "query": "Looks like Jeff is using [CruiseControl.NET](https://web.archive.org/web/20090130045625/http://confluence.public.thoughtworks.org/display/CCNET/What+is+CruiseControl.NET) based on some leafing through the podcast transcripts. This seems to have automated deployment capabilities from source control to production. Might this be where the insertion is happening?"
+  },
+  {
+    "query": "One of the sites I maintain relies heavily on the use of `ViewState` (it isn't my code). However, on certain pages where the `ViewState` is extra-bloated, Safari throws a `\"Validation of viewstate MAC failed\"` error.\n\nThis appears to only happen in Safari. Firefox, IE and Opera all load successfully in the same scenario."
+  },
+  {
+    "query": "Mobile Application Development (Android/iOS)"
+  },
+  {
+    "query": "what is hunan sauteed?"
+  },
+  {
+    "query": "Quoting a much-replicated help page about Indexing Service query language:\n\n> To use specially treated characters such as &, |, ^, #, @, $, (, ), in a query, enclose your query in quotation marks (\u201c).\n\nAs far as I know, full text search in `MSSQL` is also done by the Indexing Service, so this might help."
+  },
+  {
+    "query": "I know that Visual Studio itself (at least in 2003 version) references the IE dll directly to render the \"Design View\".\n\nIt may be worth looking into that.\n\nOtherwise, I can't think of anything beyond the Web Browser control."
+  },
+  {
+    "query": "I've read somewhere the human eye can't distinguish between less than 4 values apart. so This is something to keep in mind. The following algorithm does not compensate for this.\n\nI'm not sure this is exactly what you want, but this is one way to randomly generate non-repeating color values:\n\n(beware, inconsistent pseudo-code ahead)\n\n```\n//colors entered as 0-255 [R, G, B]\ncolors = []; //holds final colors to be used\nrand = new Random();\n\n//assumes n is less than 16,777,216\nrandomGen(int n){\n   while (len(colors) < n){\n      //generate a random number between 0,255 for each color\n      newRed = rand.next(256);\n      newGreen = rand.next(256);\n      newBlue = rand.next(256);\n      temp = [newRed, newGreen, newBlue];\n      //only adds new colors to the array\n      if temp not in colors {\n         colors.append(temp);\n      }\n   }\n}\n```\n\n\nOne way you could optimize this for better visibility would be to compare the distance between each new color and all the colors in the array:\n\n```\nfor item in color{\n   itemSq = (item[0]^2 + item[1]^2 + item[2]^2])^(.5);\n   tempSq = (temp[0]^2 + temp[1]^2 + temp[2]^2])^(.5);\n   dist = itemSq - tempSq;\n   dist = abs(dist);\n}\n//NUMBER can be your chosen distance apart.\nif dist < NUMBER and temp not in colors {\n   colors.append(temp);\n}\n```\n\n\nBut this approach would significantly slow down your algorithm.\n\nAnother way would be to scrap the randomness and systematically go through every 4 values and add a color to an array in the above example."
+  },
+  {
+    "query": "Theory of Computation (Automata Theory)"
+  },
+  {
+    "query": "Digital Logic Design"
+  },
+  {
+    "query": "Microprocessors and Microcontrollers"
+  },
+  {
+    "query": "I'm trying to maintain a Setup Project in `Visual Studio 2003` (yes, it's a legacy application). The problem we have at the moment is that we need to write registry entries to `HKCU` for every user on the computer. They need to be in the `HKCU` rather than `HKLM` because they are the default user settings, and they do change per user. My feeling is that\n\n\n1. This isn't possible\n2. This isn't something the installer should be doing, but something the application should be doing (after all what happens when a user profile is created after the install?).\n\n\n\nWith that in mind, I still want to change as little as possible in the application, so my question is, `Visual Studio 2003` \n\nAnd, at the moment the project lists five registry root keys (`HKEY_CLASSES_ROOT, HKEY_CURRENT_USER`, `HKEY_LOCAL_MACHINE`, `HKEY_USERS`, and User/Machine Hive). I don't really know anything about the Users root key, and haven't seen User/Machine Hive. Can anyone enlighten me on what they are? Perhaps they could solve my problem above."
+  },
+  {
+    "query": "what causes eyes to glaze over"
+  },
+  {
+    "query": "Bioinformatics"
+  },
+  {
+    "query": "As a general rule, you should  do a free or realloc on a user provided buffer. You don't know where the user allocated the space (in your module, in another DLL) so you cannot use any of the allocation functions on a user buffer.\n\nProvided that you now cannot do any reallocation within your function, you should change its behavior a little, like doing only one replacement, so the user will be able to compute the resulting string max length and provide you with a buffer long enough for this one replacement to occur.\n\nThen you could create another function to do the multiple replacements, but you will have to allocate the whole space for the resulting string and copy the user input string. Then you must provide a way to delete the string you allocated.\n\nResulting in:\n\n```\nvoid  strrep(char *input, char *search, char *replace);\nchar* strrepm(char *input, char *search, char *replace);\nvoid  strrepmfree(char *input);\n```"
+  },
+  {
+    "query": "Bash: Why does egrepping for this string succeed?"
+  },
+  {
+    "query": "using submodules in git for the timid"
+  },
+  {
+    "query": "I have an absolutely positioned `div` containing several children, one of which is a relatively positioned `div`. When I use a `percentage-based width` on the child `div`, it collapses to `0 width` on IE7, but not on Firefox or Safari.\nIf I use `pixel width`, it works. If the parent is relatively positioned, the percentage width on the child works.\n\n1. Is there something I'm missing here?\n2. Is there an easy fix for this besides the pixel-based width on the child?\n3. Is there an area of the CSS specification that covers this?"
+  },
+  {
+    "query": "How can I see the final version of a Qweb template in Odoo/Openerp"
+  },
+  {
+    "query": "I believe the easiest way would be to follow Jeff's own advice and have a look around the existing code. Try looking at WordPress, Drupal, Joomla, and other well-known PHP-based CMS to see how their API hooks look and feel. This way you can even get ideas you may have not thought of previously to make things a little more robust.\nA more direct answer would be to write general files that they would \"include_once\" into their file that would provide the usability they would need. This would be broken up into categories and NOT provided in one MASSIVE \"hooks.php\" file. Be careful though, because what ends up happening is that files that they include end up having more and more dependencies and functionality improves. Try to keep API dependencies low. I.E fewer files for them to include."
+  },
+  {
+    "query": "I think the best you can do in this case is to take their input and then show them what you think they meant. If they disagree, show them the format you're expecting and get them to enter it again."
+  },
+  {
+    "query": "I often run into the following problem.\n\nI work on some changes to a project that require new tables or columns in the database. I make the database modifications and continue my work. Usually, I remember to write down the changes so that they can be replicated on the live system. However, I don't always remember what I've changed and I don't always remember to write it down.\n\nSo, I make a push to the live system and get a big, obvious error that there is no `NewColumnX`, ugh.\n\nRegardless of the fact that this may not be the best practice for this situation, is there a version control system for databases? I don't care about the specific database technology. I just want to know if one exists. If it happens to work with MS SQL Server, then great."
+  },
+  {
+    "query": "In Lucene if you had multiple indexes that covered only one partition each. Why does the same search on different indexes return results with different scores? The results from different servers match exactly. \n\ni.e. if I searched for :\n\n- - \n\n would return a score of 0.345\n\n would return a score of 0.337\n\nBoth match exactly on name and DOB."
+  },
+  {
+    "query": "is the controlling of the rate of fluid flow and how the fluid flow is being accomplished"
+  },
+  {
+    "query": "Web Technologies (HTML, CSS, JS)"
+  },
+  {
+    "query": "I've had no trouble using the BSD sockets API in C++, in GNU/Linux. Here's the sample program I used:\n\n```\n#include <sys/socket.h>\n\nint\nmain()\n{\n    return AF_INET;\n}\n```\n\n\nSo my take on this is that z/OS is probably the complicating factor here, however, because I've never used z/OS before, much less programmed in it, I can't say this definitively. :-P"
+  },
+  {
+    "query": "AngularJS-Modify NgBoilerPlate template to modify the title of the webpage"
+  }
+]

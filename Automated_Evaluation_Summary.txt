@@ -1,0 +1,67 @@
+AUTOMATED EVALUATION RESULTS
+============================
+
+Dataset:
+160 test queries
+
+Models:
+1. LDA
+2. NMF
+3. KeyBERT
+4. BERTopic
+5. FlanT5-v1
+6. FlanT5-v2
+7. FlanT5-v3
+8. Llama-3.1-8B via Groq
+
+Metrics:
+1. Semantic Similarity - Higher is better
+2. Topic Drift - Lower is better
+3. Hierarchy Quality - Higher is better
+
+FINAL RESULTS
+=============
+
+LDA
+Semantic Similarity: 0.0540 ± 0.1255
+Topic Drift: 0.9264 ± 0.1084
+Hierarchy Quality: 0.8180 ± 0.1542
+
+NMF
+Semantic Similarity: 0.0846 ± 0.1283
+Topic Drift: 0.9010 ± 0.1111
+Hierarchy Quality: 0.9985 ± 0.0062
+
+KeyBERT
+Semantic Similarity: 0.3400 ± 0.3575
+Topic Drift: 0.6474 ± 0.3435
+Hierarchy Quality: 0.9396 ± 0.1361
+
+BERTopic
+Semantic Similarity: 0.0160 ± 0.0800
+Topic Drift: 0.9614 ± 0.0589
+Hierarchy Quality: 0.8933 ± 0.0443
+
+FlanT5-v1
+Semantic Similarity: 0.0600 ± 0.1595
+Topic Drift: 0.9200 ± 0.1454
+Hierarchy Quality: 0.7325 ± 0.0831
+
+FlanT5-v2
+Semantic Similarity: 0.0686 ± 0.1604
+Topic Drift: 0.9149 ± 0.1479
+Hierarchy Quality: 0.7306 ± 0.0631
+
+FlanT5-v3
+Semantic Similarity: 0.1553 ± 0.2609
+Topic Drift: 0.8294 ± 0.2489
+Hierarchy Quality: 0.7617 ± 0.0778
+
+Llama3-Groq
+Semantic Similarity: 0.6129 ± 0.1461
+Topic Drift: 0.3871 ± 0.1461
+Hierarchy Quality: 0.9997 ± 0.0035
+
+IMPORTANT:
+These are automated reference-free evaluation results.
+Human annotation will be used as an independent validation of topic relevance and hierarchy quality.
