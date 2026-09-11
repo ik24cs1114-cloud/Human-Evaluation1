@@ -1,0 +1,11 @@
+Omitted_Annotator,Metric,Spearman_rho,Spearman_p,Full_Top_System,LOO_Top_System,Rank_Ordering_Unchanged
+A1,Mean_Relevance,0.7857142857142858,0.020815127253525273,System H,System H,False
+A1,Hierarchy_Overall,0.9047619047619048,0.002008275505429469,System H,System H,False
+A2,Mean_Relevance,1.0,0.0,System H,System H,True
+A2,Hierarchy_Overall,1.0,0.0,System H,System H,True
+A3,Mean_Relevance,0.9523809523809524,0.000260400024387251,System H,System H,False
+A3,Hierarchy_Overall,0.7425282823862205,0.03485503933666417,System H,System H,False
+A4,Mean_Relevance,0.9761904761904763,3.314396026200098e-05,System H,System H,False
+A4,Hierarchy_Overall,1.0,0.0,System H,System H,True
+A5,Mean_Relevance,1.0,0.0,System H,System H,True
+A5,Hierarchy_Overall,0.9761904761904763,3.314396026200098e-05,System H,System H,False

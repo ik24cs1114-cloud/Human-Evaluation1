@@ -1,0 +1,7 @@
+pandas
+numpy
+openpyxl
+matplotlib
+scipy
+statsmodels
+krippendorff
