@@ -1,0 +1,27 @@
+source_dataset,subject,number_of_queries
+MMLU,abstract_algebra,2
+MMLU,business_ethics,3
+MMLU,college_biology,4
+MMLU,college_chemistry,2
+MMLU,college_physics,4
+MMLU,econometrics,4
+MMLU,international_law,1
+MMLU,philosophy,2
+MMLU,world_religions,3
+MedMCQA,Biochemistry,1
+MedMCQA,Dental,1
+MedMCQA,ENT,3
+MedMCQA,Forensic Medicine,1
+MedMCQA,Gynaecology & Obstetrics,1
+MedMCQA,Medicine,2
+MedMCQA,Microbiology,1
+MedMCQA,Ophthalmology,2
+MedMCQA,Orthopaedics,2
+MedMCQA,Pathology,1
+MedMCQA,Pediatrics,1
+MedMCQA,Pharmacology,1
+MedMCQA,Physiology,3
+MedMCQA,Psychiatry,1
+MedMCQA,Radiology,1
+MedMCQA,Skin,1
+MedMCQA,Social & Preventive Medicine,2

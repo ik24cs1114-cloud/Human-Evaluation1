@@ -1,0 +1,742 @@
+﻿query_id,source_dataset,subject,query,level,rank_within_level,topic,annotator_id,topic_relevance_0_3
+MED084,MedMCQA,Biochemistry,Organelles,basic,1,Definition and classification of organelles,A2,2
+MED084,MedMCQA,Biochemistry,Organelles,basic,2,Major eukaryotic organelles and their primary functions,A2,3
+MED084,MedMCQA,Biochemistry,Organelles,basic,3,"Organelle structure: membranes, matrix, and protein composition",A2,3
+MED084,MedMCQA,Biochemistry,Organelles,basic,4,Organelle localization within the cell,A2,3
+MED084,MedMCQA,Biochemistry,Organelles,basic,5,Differences between prokaryotic and eukaryotic organelles,A2,3
+MED084,MedMCQA,Biochemistry,Organelles,intermediate,1,Organelle biogenesis and protein import pathways,A2,2
+MED084,MedMCQA,Biochemistry,Organelles,intermediate,2,Inter-organelle communication and signaling,A2,3
+MED084,MedMCQA,Biochemistry,Organelles,intermediate,3,"Organelle dynamics: fission, fusion, motility",A2,1
+MED084,MedMCQA,Biochemistry,Organelles,intermediate,4,"Organelle-specific metabolic pathways (e.g., mitochondria respiration, chloroplast photosynthesis)",A2,3
+MED084,MedMCQA,Biochemistry,Organelles,intermediate,5,Organelle genome maintenance and replication,A2,2
+MED084,MedMCQA,Biochemistry,Organelles,advanced,1,Evolutionary origins and endosymbiotic theory of organelles,A2,3
+MED084,MedMCQA,Biochemistry,Organelles,advanced,2,Organelle-targeting signals and sorting mechanisms,A2,3
+MED084,MedMCQA,Biochemistry,Organelles,advanced,3,Organelle dysfunction in disease and therapeutic strategies,A2,3
+MED084,MedMCQA,Biochemistry,Organelles,advanced,4,Synthetic biology approaches to engineer artificial organelles,A2,3
+MED084,MedMCQA,Biochemistry,Organelles,advanced,5,Organelle-based nanotechnology and subcellular compartmentalization,A2,3
+MED015,MedMCQA,Physiology,Muscle,basic,1,Types of muscle tissue,A2,2
+MED015,MedMCQA,Physiology,Muscle,basic,2,Muscle contraction mechanism,A2,3
+MED015,MedMCQA,Physiology,Muscle,basic,3,Muscle anatomy and structure,A2,3
+MED015,MedMCQA,Physiology,Muscle,basic,4,Role of muscle in movement,A2,2
+MED015,MedMCQA,Physiology,Muscle,basic,5,Basic muscle physiology,A2,2
+MED015,MedMCQA,Physiology,Muscle,intermediate,1,Neuromuscular junction and signal transmission,A2,2
+MED015,MedMCQA,Physiology,Muscle,intermediate,2,Muscle fiber recruitment and force production,A2,3
+MED015,MedMCQA,Physiology,Muscle,intermediate,3,Energy metabolism in muscle,A2,3
+MED015,MedMCQA,Physiology,Muscle,intermediate,4,Muscle adaptation to training,A2,2
+MED015,MedMCQA,Physiology,Muscle,intermediate,5,Muscle fatigue and recovery mechanisms,A2,3
+MED015,MedMCQA,Physiology,Muscle,advanced,1,Molecular regulation of muscle growth,A2,2
+MED015,MedMCQA,Physiology,Muscle,advanced,2,Muscle fiber type plasticity and gene expression,A2,2
+MED015,MedMCQA,Physiology,Muscle,advanced,3,Biomechanical modeling of muscle function,A2,3
+MED015,MedMCQA,Physiology,Muscle,advanced,4,Pathophysiology of muscle disorders,A2,3
+MED015,MedMCQA,Physiology,Muscle,advanced,5,Advanced muscle imaging and diagnostics,A2,3
+MED004,MedMCQA,Dental,Cells of epidermis,basic,1,Keratinocytes,A2,2
+MED004,MedMCQA,Dental,Cells of epidermis,basic,2,Melanocytes,A2,3
+MED004,MedMCQA,Dental,Cells of epidermis,basic,3,Langerhans cells,A2,3
+MED004,MedMCQA,Dental,Cells of epidermis,basic,4,Merkel cells,A2,3
+MED004,MedMCQA,Dental,Cells of epidermis,basic,5,Sebaceous gland cells,A2,3
+MED004,MedMCQA,Dental,Cells of epidermis,intermediate,1,Keratinization and cornification,A2,3
+MED004,MedMCQA,Dental,Cells of epidermis,intermediate,2,Melanin synthesis and transfer to keratinocytes,A2,3
+MED004,MedMCQA,Dental,Cells of epidermis,intermediate,3,Antigen presentation by Langerhans cells,A2,2
+MED004,MedMCQA,Dental,Cells of epidermis,intermediate,4,Mechanotransduction by Merkel cells,A2,2
+MED004,MedMCQA,Dental,Cells of epidermis,intermediate,5,Lipid secretion by sebaceous glands,A2,3
+MED004,MedMCQA,Dental,Cells of epidermis,advanced,1,Epidermal stem cell niches and lineage commitment,A2,3
+MED004,MedMCQA,Dental,Cells of epidermis,advanced,2,"Signaling pathways controlling keratinocyte differentiation (Notch, Wnt)",A2,2
+MED004,MedMCQA,Dental,Cells of epidermis,advanced,3,Epidermal‑dermal cross‑talk and extracellular matrix remodeling,A2,3
+MED004,MedMCQA,Dental,Cells of epidermis,advanced,4,"Cellular mechanisms underlying epidermal diseases (psoriasis, atopic dermatitis)",A2,2
+MED004,MedMCQA,Dental,Cells of epidermis,advanced,5,Bioengineering of skin substitutes using epidermal cells,A2,2
+MED097,MedMCQA,Psychiatry,Psychoanalysis,basic,1,"Freud's structural model: id, ego, superego",A2,3
+MED097,MedMCQA,Psychiatry,Psychoanalysis,basic,2,The unconscious mind and repression,A2,3
+MED097,MedMCQA,Psychiatry,Psychoanalysis,basic,3,Psychosexual development stages,A2,2
+MED097,MedMCQA,Psychiatry,Psychoanalysis,basic,4,Dream symbolism and interpretation,A2,2
+MED097,MedMCQA,Psychiatry,Psychoanalysis,basic,5,Free association technique,A2,2
+MED097,MedMCQA,Psychiatry,Psychoanalysis,intermediate,1,"Defense mechanisms: repression, denial, projection",A2,3
+MED097,MedMCQA,Psychiatry,Psychoanalysis,intermediate,2,Transference and countertransference dynamics,A2,3
+MED097,MedMCQA,Psychiatry,Psychoanalysis,intermediate,3,Attachment theory integration in psychoanalysis,A2,2
+MED097,MedMCQA,Psychiatry,Psychoanalysis,intermediate,4,Case formulation and treatment planning,A2,0
+MED097,MedMCQA,Psychiatry,Psychoanalysis,intermediate,5,Oedipus complex and its clinical relevance,A2,3
+MED097,MedMCQA,Psychiatry,Psychoanalysis,advanced,1,Object relations theory and its clinical applications,A2,3
+MED097,MedMCQA,Psychiatry,Psychoanalysis,advanced,2,Self psychology and ego development,A2,3
+MED097,MedMCQA,Psychiatry,Psychoanalysis,advanced,3,Psychoanalytic treatment of complex trauma,A2,3
+MED097,MedMCQA,Psychiatry,Psychoanalysis,advanced,4,Neuroscientific integration of psychoanalytic concepts,A2,2
+MED097,MedMCQA,Psychiatry,Psychoanalysis,advanced,5,Comparative analysis of psychoanalytic schools and contemporary theories,A2,2
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,basic,1,Ion concentration gradients,A2,2
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,basic,2,Resting membrane potential,A2,3
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,basic,3,Membrane permeability,A2,3
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,basic,4,Electrochemical gradient,A2,3
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,basic,5,Ion channel types,A2,3
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,intermediate,1,Action potential initiation,A2,3
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,intermediate,2,Voltage-gated sodium and potassium channels,A2,3
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,intermediate,3,Hodgkin‑Huxley equations,A2,3
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,intermediate,4,Refractory periods,A2,3
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,intermediate,5,Signal propagation along axons,A2,1
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,intermediate,6,Synaptic integration,A2,3
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,advanced,1,Computational modeling of neuronal dynamics,A2,3
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,advanced,2,Myelination and saltatory conduction,A2,2
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,advanced,3,Neuromodulation of action potentials,A2,3
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,advanced,4,Pathophysiology of membrane potential disorders,A2,3
+MED036,MedMCQA,Physiology,Membrane Potentials and Action Potentials,advanced,5,Advanced electrophysiological recording techniques,A2,3
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,basic,1,Definition and overview of hyperparathyroidism,A2,3
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,basic,2,Role of parathyroid hormone (PTH) in calcium homeostasis,A2,3
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,basic,3,Common causes and risk factors,A2,3
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,basic,4,Clinical presentation and symptoms,A2,3
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,basic,5,"Basic laboratory tests (serum calcium, PTH, phosphate)",A2,2
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,intermediate,1,"Primary, secondary, and tertiary hyperparathyroidism distinctions",A2,2
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,intermediate,2,"Pathophysiology of PTH excess on bone, kidney, and intestine",A2,3
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,intermediate,3,"Imaging techniques for parathyroid localization (ultrasound, sestamibi scan)",A2,2
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,intermediate,4,Surgical management: parathyroidectomy indications and techniques,A2,2
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,intermediate,5,"Medical management options (vitamin D, bisphosphonates, calcimimetics)",A2,3
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,intermediate,6,"Complications: bone disease, kidney stones, neuropsychiatric effects",A2,3
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,advanced,1,"Genetic syndromes associated with hyperparathyroidism (MEN1, MEN2A, HPT‑JT)",A2,3
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,advanced,2,Molecular mechanisms of PTH receptor signaling and resistance,A2,2
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,advanced,3,"Novel pharmacotherapies: calcimimetics, PTH analogs, targeted agents",A2,2
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,advanced,4,Advanced imaging and intraoperative navigation techniques,A2,2
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,advanced,5,Long‑term outcomes and quality of life post‑treatment,A2,3
+MED032,MedMCQA,Orthopaedics,Hyperparathyroidism,advanced,6,"Research directions: bone remodeling biomarkers, endocrine crosstalk, precision medicine",A2,2
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,basic,1,Anatomy of peripheral nerves,A2,3
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,basic,2,Types of muscle fibers (slow vs fast),A2,3
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,basic,3,Neuromuscular junction function,A2,2
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,basic,4,Motor unit organization,A2,2
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,basic,5,Basics of muscle contraction,A2,3
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,intermediate,1,Peripheral nerve injury mechanisms and classification,A2,2
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,intermediate,2,Excitation–contraction coupling in skeletal muscle,A2,3
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,intermediate,3,Muscle fiber recruitment and force production,A2,3
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,intermediate,4,Nerve conduction studies and interpretation,A2,2
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,intermediate,5,"Common neuromuscular disorders (e.g., myasthenia gravis, peripheral neuropathies)",A2,3
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,advanced,1,Surgical and bioengineering approaches to peripheral nerve repair,A2,3
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,advanced,2,Molecular pathways of nerve regeneration and axonal guidance,A2,2
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,advanced,3,"Advanced imaging techniques for peripheral nerves (e.g., high‑resolution ultrasound, diffusion tensor imaging)",A2,2
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,advanced,4,Muscle plasticity and adaptive remodeling in response to training or disease,A2,3
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,advanced,5,Neuroprosthetic interfaces and functional electrical stimulation for muscle re‑innervation,A2,3
+MED029,MedMCQA,Medicine,Peripheral Nerve & Muscles,advanced,6,Gene therapy strategies for inherited neuromuscular disorders,A2,2
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,basic,1,Gram‑positive bacterial cell wall structure,A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,basic,2,Staphylococcus genus and common species,A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,basic,3,Modes of staphylococcal transmission,A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,basic,4,Typical clinical presentations of staphylococcal infections,A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,basic,5,Basic antibiotic susceptibility testing,A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,basic,6,Fundamental infection control practices,A2,1
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,intermediate,1,"Pathogenic mechanisms of Staphylococcus aureus (adhesion, toxins)",A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,intermediate,2,Epidemiology and spread of MRSA,A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,intermediate,3,Mechanisms of antibiotic resistance in staphylococci,A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,intermediate,4,"Diagnostic techniques (culture, PCR, MALDI‑TOF)",A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,intermediate,5,Treatment guidelines for staphylococcal infections,A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,intermediate,6,Host immune response to staphylococcal infection,A2,2
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,intermediate,7,Infection control strategies in healthcare settings,A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,advanced,1,"Molecular epidemiology of MRSA (spa typing, SCCmec)",A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,advanced,2,Biofilm formation and therapeutic disruption,A2,2
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,advanced,3,"Novel antimicrobials (phage therapy, antimicrobial peptides)",A2,2
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,advanced,4,Genomic surveillance for outbreak investigation,A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,advanced,5,Vaccine research and development for staphylococcal infections,A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,advanced,6,Antimicrobial stewardship optimization algorithms,A2,3
+MED018,MedMCQA,Skin,Gram-Positive Infections - Staphylococcal Infections,advanced,7,Host‑pathogen interaction at the molecular level,A2,3
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,basic,1,Definition of sedatives and hypnotics,A2,3
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,basic,2,Classification of sedatives and hypnotics,A2,3
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,basic,3,Common examples of sedatives,A2,2
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,basic,4,Common examples of hypnotics,A2,3
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,basic,5,Basic pharmacokinetic concepts,A2,2
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,intermediate,1,Mechanisms of action of GABAergic sedatives,A2,3
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,intermediate,2,Mechanisms of action of benzodiazepines and non‑benzodiazepine hypnotics,A2,3
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,intermediate,3,Therapeutic uses of sedatives and hypnotics,A2,3
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,intermediate,4,Common side effects and withdrawal considerations,A2,3
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,intermediate,5,Basic drug interaction principles,A2,2
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,advanced,1,Neuropharmacology of GABA‑A receptor subtypes,A2,3
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,advanced,2,"Development of novel hypnotic agents (e.g., orexin antagonists)",A2,3
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,advanced,3,Clinical decision‑making algorithms for sedation and sleep disorders,A2,3
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,advanced,4,Personalized medicine approaches in sedative/hypnotic therapy,A2,3
+MED014,MedMCQA,Pharmacology,Seedatives & Hyponotics,advanced,5,Current research trends in sedative/hypnotic pharmacology,A2,3
+MED089,MedMCQA,Medicine,Disease of pericardium,basic,1,Pericardial anatomy and function,A2,3
+MED089,MedMCQA,Medicine,Disease of pericardium,basic,2,Common pericardial disorders,A2,3
+MED089,MedMCQA,Medicine,Disease of pericardium,basic,3,Clinical presentation of pericardial disease,A2,2
+MED089,MedMCQA,Medicine,Disease of pericardium,basic,4,Initial diagnostic evaluation,A2,2
+MED089,MedMCQA,Medicine,Disease of pericardium,intermediate,1,Causes and mechanisms of pericarditis,A2,2
+MED089,MedMCQA,Medicine,Disease of pericardium,intermediate,2,Hemodynamic impact of pericardial effusion,A2,2
+MED089,MedMCQA,Medicine,Disease of pericardium,intermediate,3,Imaging techniques for pericardial assessment,A2,3
+MED089,MedMCQA,Medicine,Disease of pericardium,intermediate,4,Standard treatment protocols,A2,2
+MED089,MedMCQA,Medicine,Disease of pericardium,advanced,1,Cellular and molecular pathways in pericardial inflammation,A2,1
+MED089,MedMCQA,Medicine,Disease of pericardium,advanced,2,Advanced imaging biomarkers for pericardial disease,A2,3
+MED089,MedMCQA,Medicine,Disease of pericardium,advanced,3,Emerging therapies and interventional techniques,A2,2
+MED089,MedMCQA,Medicine,Disease of pericardium,advanced,4,Current research trends and future directions,A2,1
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,basic,1,Definition of glaucoma and its impact on vision,A2,3
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,basic,2,Goals of glaucoma surgery,A2,2
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,basic,3,Overview of surgical options for glaucoma,A2,3
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,intermediate,1,Trabeculectomy: technique and postoperative care,A2,3
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,intermediate,2,Tube shunt implantation: indications and outcomes,A2,3
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,intermediate,3,Laser trabeculoplasty: principles and indications,A2,3
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,intermediate,4,Patient selection and preoperative evaluation for glaucoma surgery,A2,3
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,intermediate,5,"Managing postoperative complications (bleb failure, hypotony)",A2,3
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,advanced,1,Comparative effectiveness of traditional vs. minimally invasive glaucoma surgery (MIGS),A2,2
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,advanced,2,Design and materials of glaucoma drainage devices,A2,3
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,advanced,3,Personalized surgical planning using imaging and biometrics,A2,3
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,advanced,4,Long‑term outcomes and risk stratification in glaucoma surgery,A2,3
+MED071,MedMCQA,Ophthalmology,Surgical Procedures For Glaucoma,advanced,5,Emerging technologies: gene therapy and regenerative approaches for glaucoma,A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,basic,1,Gene structure and function,A2,2
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,basic,2,Mendelian inheritance patterns,A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,basic,3,Autosomal dominant vs recessive disorders,A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,basic,4,"Types of gene mutations (missense, nonsense, frameshift)",A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,basic,5,Clinical presentation of single‑gene disorders,A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,intermediate,1,Molecular consequences of point mutations,A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,intermediate,2,Genotype‑phenotype correlation in Mendelian diseases,A2,2
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,intermediate,3,"Diagnostic techniques: PCR, Sanger sequencing, next‑generation sequencing",A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,intermediate,4,Carrier detection and prenatal testing,A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,intermediate,5,Genetic counseling principles,A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,advanced,1,Gene therapy strategies for monogenic disorders,A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,advanced,2,CRISPR‑Cas9 mediated genome editing in disease models,A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,advanced,3,Functional genomics approaches to uncover pathogenic mechanisms,A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,advanced,4,Population genetics and carrier frequency estimation,A2,3
+MED012,MedMCQA,Pathology,Mendelian Disorders: Single-Gene Defects,advanced,5,"Ethical, legal, and social implications of gene editing",A2,2
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",basic,1,Principles of ultrasound imaging,A2,2
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",basic,2,Principles of computed tomography (CT),A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",basic,3,Principles of magnetic resonance imaging (MRI),A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",basic,4,Common clinical indications for each modality,A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",basic,5,Safety considerations and contraindications,A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",basic,6,Basic image interpretation fundamentals,A2,1
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",intermediate,1,"Ultrasound physics: sound waves, attenuation, resolution",A2,2
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",intermediate,2,"CT image acquisition: X‑ray source, detectors, reconstruction algorithms",A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",intermediate,3,"MRI physics: nuclear magnetic resonance, magnetic fields, RF pulses",A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",intermediate,4,"Contrast agents: ultrasound microbubbles, iodinated CT contrast, gadolinium MRI contrast",A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",intermediate,5,"Image post‑processing: window/level adjustments, 3D reconstruction",A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",intermediate,6,Radiation dose management in CT,A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",intermediate,7,Ultrasound Doppler techniques,A2,2
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",intermediate,8,Functional MRI (fMRI) basics,A2,2
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",advanced,1,"Advanced ultrasound techniques: elastography, contrast‑enhanced ultrasound, 3D/4D imaging",A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",advanced,2,CT perfusion imaging and dual‑energy CT,A2,2
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",advanced,3,"MRI advanced sequences: diffusion‑weighted imaging, spectroscopy, perfusion, functional connectivity",A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",advanced,4,Quantitative imaging biomarkers and radiomics,A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",advanced,5,AI‑driven image reconstruction and interpretation,A2,1
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",advanced,6,"Hybrid imaging modalities: PET/CT, PET/MRI",A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",advanced,7,Optimization of imaging protocols for specific pathologies,A2,3
+MED078,MedMCQA,Radiology,"Ultrasonography, CT, and MRI",advanced,8,Research on novel contrast agents and safety profiles,A2,1
+MED056,MedMCQA,Physiology,Body fluid compaments,basic,1,Definition of body fluid compartments,A2,3
+MED056,MedMCQA,Physiology,Body fluid compaments,basic,2,Intracellular fluid,A2,3
+MED056,MedMCQA,Physiology,Body fluid compaments,basic,3,Extracellular fluid,A2,2
+MED056,MedMCQA,Physiology,Body fluid compaments,basic,4,Interstitial fluid,A2,3
+MED056,MedMCQA,Physiology,Body fluid compaments,basic,5,Plasma,A2,2
+MED056,MedMCQA,Physiology,Body fluid compaments,basic,6,Transcellular fluid,A2,2
+MED056,MedMCQA,Physiology,Body fluid compaments,basic,7,Typical fluid distribution percentages,A2,2
+MED056,MedMCQA,Physiology,Body fluid compaments,intermediate,1,Capillary filtration and reabsorption mechanisms,A2,3
+MED056,MedMCQA,Physiology,Body fluid compaments,intermediate,2,Osmotic and hydrostatic pressures (Starling forces),A2,3
+MED056,MedMCQA,Physiology,Body fluid compaments,intermediate,3,Regulation of fluid balance by kidneys and hormones,A2,2
+MED056,MedMCQA,Physiology,Body fluid compaments,intermediate,4,Fluid shifts during dehydration and edema,A2,2
+MED056,MedMCQA,Physiology,Body fluid compaments,intermediate,5,Sodium and water influence on compartmental distribution,A2,3
+MED056,MedMCQA,Physiology,Body fluid compaments,advanced,1,Fluid therapy protocols in critical care settings,A2,3
+MED056,MedMCQA,Physiology,Body fluid compaments,advanced,2,Mathematical modeling of fluid compartment dynamics in disease,A2,2
+MED056,MedMCQA,Physiology,Body fluid compaments,advanced,3,Advanced imaging techniques for assessing fluid distribution,A2,3
+MED056,MedMCQA,Physiology,Body fluid compaments,advanced,4,Fluid compartment alterations in sepsis and shock,A2,2
+MED056,MedMCQA,Physiology,Body fluid compaments,advanced,5,Emerging biomarkers for precise fluid status assessment,A2,2
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,basic,1,Basic structure of the nasal cavity,A2,3
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,basic,2,"Nasal cavity regions: vestibule, respiratory zone, olfactory zone",A2,3
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,basic,3,Nasal septum and conchae,A2,2
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,basic,4,Nasal mucosa and cilia,A2,2
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,basic,5,Nasal cavity bones and cartilage,A2,3
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,intermediate,1,"Functions of the nasal cavity: filtration, humidification, temperature regulation",A2,3
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,intermediate,2,Blood supply and innervation of the nasal cavity,A2,3
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,intermediate,3,Olfactory system and nasal cavity,A2,3
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,intermediate,4,Nasal cavity and sinus connections,A2,3
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,intermediate,5,"Common nasal cavity disorders: rhinitis, sinusitis, nasal polyps",A2,3
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,advanced,1,Computational fluid dynamics of airflow in the nasal cavity,A2,3
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,advanced,2,Endoscopic surgical techniques for nasal cavity reconstruction,A2,3
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,advanced,3,Tissue engineering and regenerative approaches for nasal mucosa,A2,3
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,advanced,4,Advanced imaging modalities for nasal cavity assessment,A2,3
+MED005,MedMCQA,ENT,Anatomy of Nasal Cavity,advanced,5,Neuroanatomical pathways of olfactory perception,A2,3
+MED100,MedMCQA,Social & Preventive Medicine,Air,basic,1,Composition of Earth's atmosphere,A2,2
+MED100,MedMCQA,Social & Preventive Medicine,Air,basic,2,"Physical properties of air (pressure, temperature, density)",A2,2
+MED100,MedMCQA,Social & Preventive Medicine,Air,basic,3,Atmospheric layers and their characteristics,A2,3
+MED100,MedMCQA,Social & Preventive Medicine,Air,basic,4,Behavior of air as a gas,A2,3
+MED100,MedMCQA,Social & Preventive Medicine,Air,basic,5,Basic air quality indicators,A2,2
+MED100,MedMCQA,Social & Preventive Medicine,Air,intermediate,1,Diffusion and convection of air,A2,3
+MED100,MedMCQA,Social & Preventive Medicine,Air,intermediate,2,Weather systems and air movement,A2,3
+MED100,MedMCQA,Social & Preventive Medicine,Air,intermediate,3,"Thermodynamics of air (ideal gas law, adiabatic processes)",A2,2
+MED100,MedMCQA,Social & Preventive Medicine,Air,intermediate,4,Sources and effects of air pollution,A2,2
+MED100,MedMCQA,Social & Preventive Medicine,Air,intermediate,5,"Fundamentals of aerodynamics (lift, drag, airflow)",A2,3
+MED100,MedMCQA,Social & Preventive Medicine,Air,advanced,1,Climate modeling and atmospheric circulation,A2,3
+MED100,MedMCQA,Social & Preventive Medicine,Air,advanced,2,Atmospheric chemistry and ozone dynamics,A2,2
+MED100,MedMCQA,Social & Preventive Medicine,Air,advanced,3,Computational fluid dynamics for air flow analysis,A2,3
+MED100,MedMCQA,Social & Preventive Medicine,Air,advanced,4,Design of aircraft and wind turbines using air properties,A2,3
+MED100,MedMCQA,Social & Preventive Medicine,Air,advanced,5,Acoustic propagation and sound in air,A2,3
+MED091,MedMCQA,Ophthalmology,Ocular Manifestations of Diseases of CNS,basic,1,Anatomy of the visual pathway,A2,1
+MED091,MedMCQA,Ophthalmology,Ocular Manifestations of Diseases of CNS,basic,2,Fundamentals of neuro‑ophthalmic examination,A2,3
+MED091,MedMCQA,Ophthalmology,Ocular Manifestations of Diseases of CNS,basic,3,Common ocular signs of CNS disease,A2,3
+MED091,MedMCQA,Ophthalmology,Ocular Manifestations of Diseases of CNS,intermediate,1,Mechanisms of papilledema and optic disc edema,A2,2
+MED091,MedMCQA,Ophthalmology,Ocular Manifestations of Diseases of CNS,intermediate,2,Visual field defects associated with CNS lesions,A2,3
+MED091,MedMCQA,Ophthalmology,Ocular Manifestations of Diseases of CNS,intermediate,3,Ocular motor palsies in brainstem disease,A2,2
+MED091,MedMCQA,Ophthalmology,Ocular Manifestations of Diseases of CNS,intermediate,4,Ocular manifestations of demyelinating CNS disorders,A2,3
+MED091,MedMCQA,Ophthalmology,Ocular Manifestations of Diseases of CNS,advanced,1,Imaging biomarkers linking ocular findings to CNS pathology,A2,2
+MED091,MedMCQA,Ophthalmology,Ocular Manifestations of Diseases of CNS,advanced,2,Differential diagnosis of optic neuropathies in CNS disease,A2,2
+MED091,MedMCQA,Ophthalmology,Ocular Manifestations of Diseases of CNS,advanced,3,Therapeutic strategies for neuro‑ophthalmic complications,A2,3
+MED091,MedMCQA,Ophthalmology,Ocular Manifestations of Diseases of CNS,advanced,4,Emerging research on neuro‑ophthalmic biomarkers for disease monitoring,A2,3
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,basic,1,Definition of endometriosis,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,basic,2,Definition of dysmenorrhea,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,basic,3,Overview of the menstrual cycle,A2,3
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,basic,4,Common symptoms of endometriosis,A2,3
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,basic,5,Common symptoms of dysmenorrhea,A2,3
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,basic,6,Basics of pain perception,A2,3
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,intermediate,1,Pathophysiology of endometriosis,A2,3
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,intermediate,2,Etiology and risk factors for endometriosis,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,intermediate,3,Pathophysiology of dysmenorrhea,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,intermediate,4,Diagnostic methods for endometriosis,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,intermediate,5,Diagnostic methods for dysmenorrhea,A2,3
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,intermediate,6,Medical management of endometriosis,A2,3
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,intermediate,7,Medical management of dysmenorrhea,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,intermediate,8,Surgical options for endometriosis,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,intermediate,9,Impact of endometriosis on fertility,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,intermediate,10,Psychological and quality‑of‑life effects,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,advanced,1,Genetic and molecular mechanisms underlying endometriosis,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,advanced,2,Immunological and inflammatory pathways in endometriosis,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,advanced,3,Emerging pharmacologic therapies for endometriosis,A2,3
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,advanced,4,Novel imaging techniques for early detection of endometriosis,A2,3
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,advanced,5,Long‑term outcomes of surgical versus medical treatment,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,advanced,6,Cost‑effectiveness and health‑policy considerations for endometriosis care,A2,2
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,advanced,7,Patient‑centered decision‑making models,A2,3
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,advanced,8,Multidisciplinary care pathways for endometriosis and dysmenorrhea,A2,3
+MED028,MedMCQA,Gynaecology & Obstetrics,Endometriosis and dysmenorrhea,advanced,9,Research on refractory dysmenorrhea subtypes and novel pain management,A2,2
+MED030,MedMCQA,Microbiology,Bacteriology,basic,1,Definition and classification of bacteria,A2,2
+MED030,MedMCQA,Microbiology,Bacteriology,basic,2,Bacterial morphology and cell structure,A2,2
+MED030,MedMCQA,Microbiology,Bacteriology,basic,3,Gram staining and basic identification,A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,basic,4,Bacterial growth conditions and reproduction,A2,2
+MED030,MedMCQA,Microbiology,Bacteriology,basic,5,Bacterial metabolism and energy pathways,A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,intermediate,1,Mechanisms of antibiotic resistance,A2,2
+MED030,MedMCQA,Microbiology,Bacteriology,intermediate,2,Bacterial virulence factors and pathogenesis,A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,intermediate,3,Host immune response to bacterial infection,A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,intermediate,4,Bacterial biofilm formation and control,A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,intermediate,5,Bacterial genetics: plasmids and horizontal gene transfer,A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,intermediate,6,Quorum sensing and bacterial communication,A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,intermediate,7,"Molecular identification techniques (PCR, sequencing)",A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,advanced,1,Metagenomic analysis of bacterial communities,A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,advanced,2,Synthetic biology and genome editing in bacteria,A2,2
+MED030,MedMCQA,Microbiology,Bacteriology,advanced,3,Bacteriophage therapy and phage biology,A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,advanced,4,Systems biology and metabolic modeling of bacteria,A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,advanced,5,Bacterial evolution and phylogenetic reconstruction,A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,advanced,6,Metabolic engineering for industrial bioproducts,A2,3
+MED030,MedMCQA,Microbiology,Bacteriology,advanced,7,Computational modeling of bacterial population dynamics,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,basic,1,Definition of infection and inflammation,A2,2
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,basic,2,"Major classes of pathogens (bacteria, viruses, fungi, parasites)",A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,basic,3,Modes of pathogen transmission,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,basic,4,Host immune system fundamentals,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,basic,5,Acute inflammatory response,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,basic,6,Chronic inflammation,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,basic,7,Clinical signs and symptoms of infection,A2,2
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,basic,8,"Basic diagnostic methods (culture, imaging, lab tests)",A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,intermediate,1,"Innate immunity: phagocytosis, complement, NK cells",A2,2
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,intermediate,2,"Adaptive immunity: B cells, T cells, antibody production",A2,2
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,intermediate,3,Cytokine signaling and inflammatory mediators,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,intermediate,4,Acute vs chronic inflammation pathways,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,intermediate,5,Sepsis and septic shock pathophysiology,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,intermediate,6,"Common inflammatory diseases (arthritis, IBD, asthma)",A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,intermediate,7,Principles of antimicrobial therapy,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,intermediate,8,"Classes of anti‑inflammatory drugs (NSAIDs, steroids, biologics)",A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,intermediate,9,"Diagnostic biomarkers (CRP, ESR, procalcitonin)",A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,advanced,1,Molecular host‑pathogen interactions,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,advanced,2,Immunopathogenesis of autoimmune diseases,A2,2
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,advanced,3,Mechanisms of antimicrobial resistance,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,advanced,4,Vaccine design and immunogenicity,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,advanced,5,Precision medicine approaches in infectious disease,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,advanced,6,Systems biology of inflammation,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,advanced,7,"Novel therapeutics: biologics, gene therapy, CRISPR antimicrobials",A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,advanced,8,Computational modeling of infection dynamics,A2,2
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,advanced,9,Clinical trial design for anti‑inflammatory agents,A2,3
+MED066,MedMCQA,ENT,Infections and Inflammatory Conditions,advanced,10,Emerging infectious diseases and global health strategies,A2,3
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,basic,1,Definition of mortality and morbidity,A2,3
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,basic,2,Incidence and prevalence,A2,3
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,basic,3,Case fatality rate,A2,3
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,basic,4,Death certificate,A2,3
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,basic,5,Disease registry,A2,2
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,intermediate,1,Age‑standardization of mortality rates,A2,2
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,intermediate,2,Verbal autopsy and surveillance systems,A2,3
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,intermediate,3,Active vs passive disease surveillance,A2,2
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,intermediate,4,Relative risk and odds ratio,A2,2
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,intermediate,5,Data quality and misclassification,A2,3
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,advanced,1,Disability‑adjusted life years (DALYs) and years of life lost (YLL),A2,3
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,advanced,2,Bayesian hierarchical modeling for mortality estimation,A2,2
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,advanced,3,Integration of electronic health records for morbidity surveillance,A2,3
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,advanced,4,Multilevel survival analysis and competing risks,A2,2
+MED080,MedMCQA,Social & Preventive Medicine,Measurement of Mortality and Morbidity,advanced,5,Development and validation of new health indicators,A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,basic,1,Definition of organic irritants,A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,basic,2,Common sources of organic irritants,A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,basic,3,"Routes of exposure: inhalation, dermal, ocular",A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,basic,4,"Health effects of irritation: skin, eyes, respiratory",A2,2
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,basic,5,Distinction between irritants and allergens,A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,intermediate,1,"Chemical classes of organic irritants: acids, bases, solvents, hydrocarbons",A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,intermediate,2,"Cellular mechanisms of irritation: protein denaturation, membrane disruption",A2,2
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,intermediate,3,"Standardized skin irritation tests: OECD 439, Draize test",A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,intermediate,4,Respiratory irritation assessment: OECD 436,A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,intermediate,5,Personal protective equipment and mitigation strategies,A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,intermediate,6,Regulatory limits and labeling requirements,A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,advanced,1,"Molecular signaling pathways of irritation: MAPK, NF‑κB",A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,advanced,2,Computational prediction of irritancy: QSAR models,A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,advanced,3,Design of low‑irritancy organic compounds via green chemistry,A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,advanced,4,Integrated occupational risk assessment frameworks,A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,advanced,5,Emerging organic irritants in consumer products,A2,3
+MED087,MedMCQA,Forensic Medicine,Organic Irritants,advanced,6,Real‑time detection and monitoring technologies,A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,basic,1,Definition of enuresis,A2,2
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,basic,2,Definition of voiding dysfunction,A2,2
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,basic,3,Types of enuresis (nocturnal vs daytime),A2,2
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,basic,4,Basic bladder anatomy and function,A2,2
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,basic,5,Common causes of enuresis,A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,basic,6,"Initial assessment steps (history, voiding diary)",A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,intermediate,1,"Pathophysiology of enuresis (bladder capacity, neural control)",A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,intermediate,2,"Behavioral interventions (bedwetting alarms, fluid restriction)",A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,intermediate,3,"Pharmacologic options (desmopressin, anticholinergics)",A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,intermediate,4,"Diagnostic tests (uroflowmetry, urodynamics)",A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,intermediate,5,Differentiating enuresis from other voiding disorders,A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,intermediate,6,Psychosocial impact of enuresis,A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,advanced,1,Advanced urodynamic interpretation for voiding dysfunction,A2,2
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,advanced,2,"Emerging pharmacotherapies (mirabegron, combination therapy)",A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,advanced,3,Neuroimaging insights into enuresis mechanisms,A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,advanced,4,Genetic and neurodevelopmental contributors,A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,advanced,5,Long‑term management strategies and recurrence prevention,A2,3
+MED074,MedMCQA,Pediatrics,Enuresis and Voiding Dysfunction,advanced,6,Multidisciplinary care models and research directions,A2,3
+MED026,MedMCQA,ENT,Rhinitis,basic,1,Definition of Rhinitis,A2,2
+MED026,MedMCQA,ENT,Rhinitis,basic,2,Common symptoms of rhinitis,A2,3
+MED026,MedMCQA,ENT,Rhinitis,basic,3,Primary types: allergic vs non‑allergic,A2,3
+MED026,MedMCQA,ENT,Rhinitis,basic,4,Triggers and risk factors,A2,3
+MED026,MedMCQA,ENT,Rhinitis,basic,5,Basic anatomy of the nasal cavity,A2,3
+MED026,MedMCQA,ENT,Rhinitis,intermediate,1,Pathophysiology of allergic rhinitis,A2,2
+MED026,MedMCQA,ENT,Rhinitis,intermediate,2,"Diagnostic criteria and testing (skin prick, IgE)",A2,3
+MED026,MedMCQA,ENT,Rhinitis,intermediate,3,"Pharmacologic management (antihistamines, intranasal steroids)",A2,3
+MED026,MedMCQA,ENT,Rhinitis,intermediate,4,"Non‑pharmacologic strategies (allergen avoidance, nasal irrigation)",A2,3
+MED026,MedMCQA,ENT,Rhinitis,intermediate,5,Impact on quality of life and comorbidities,A2,3
+MED026,MedMCQA,ENT,Rhinitis,advanced,1,Immunologic mechanisms: IgE‑mediated vs innate responses,A2,3
+MED026,MedMCQA,ENT,Rhinitis,advanced,2,"Emerging biologic therapies (omalizumab, dupilumab)",A2,3
+MED026,MedMCQA,ENT,Rhinitis,advanced,3,Genetic predisposition and epigenetic factors,A2,3
+MED026,MedMCQA,ENT,Rhinitis,advanced,4,Personalized medicine approaches in rhinitis,A2,2
+MED026,MedMCQA,ENT,Rhinitis,advanced,5,Public health burden and cost‑effectiveness of interventions,A2,3
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,basic,1,Anatomy of the spinal column,A2,2
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,basic,2,Common causes of spinal injuries,A2,3
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,basic,3,Signs and symptoms of spinal injury,A2,3
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,basic,4,Immediate first‑aid response,A2,2
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,basic,5,Role of spinal immobilization,A2,2
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,intermediate,1,"Mechanisms of spinal trauma (fracture, dislocation, contusion)",A2,3
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,intermediate,2,"Classification systems (ASIA, AO Spine)",A2,3
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,intermediate,3,"Imaging modalities for spinal injury (X‑ray, CT, MRI)",A2,3
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,intermediate,4,"Acute medical management (pain control, blood pressure, spinal cord protection)",A2,3
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,intermediate,5,Early rehabilitation and physiotherapy principles,A2,3
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,advanced,1,Pathophysiology of spinal cord injury (primary vs secondary injury),A2,2
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,advanced,2,"Advanced surgical interventions (decompression, instrumentation, fusion)",A2,3
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,advanced,3,"Neuroregenerative strategies (stem cells, growth factors, neuroprosthetics)",A2,2
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,advanced,4,Long‑term functional outcomes and quality‑of‑life assessment,A2,2
+MED092,MedMCQA,Orthopaedics,Spinal Injuries,advanced,5,Prevention and public‑health strategies for spinal injury reduction,A2,3
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,basic,1,Definition of pure time‑series models,A2,3
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,basic,2,Definition of structural models,A2,3
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,basic,3,Key difference between time‑series and structural approaches,A2,3
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,basic,4,Typical disadvantage of pure time‑series models,A2,2
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,intermediate,1,Pure time‑series models cannot provide causal inference,A2,3
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,intermediate,2,Difficulty incorporating external structural relationships,A2,3
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,intermediate,3,Higher risk of overfitting in pure time‑series models,A2,3
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,intermediate,4,Limited interpretability of time‑series parameters,A2,3
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,intermediate,5,Sensitivity to model specification and parameter stability,A2,2
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,advanced,1,Structural equation modeling for causal analysis,A2,2
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,advanced,2,Dynamic system identification techniques,A2,1
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,advanced,3,Bayesian structural time‑series models,A2,3
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,advanced,4,Model validation across structural and time‑series frameworks,A2,3
+MMLU055,MMLU,econometrics,Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,advanced,5,Integrating time‑series with structural modeling for improved inference,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",basic,1,Ecosystem structure,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",basic,2,Human-induced habitat simplification,A2,2
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",basic,3,Biodiversity,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",basic,4,Density-dependent regulation,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",basic,5,Population dynamics,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",intermediate,1,Simplification effects on species interactions,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",intermediate,2,Density-dependent factors in ecosystem stability,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",intermediate,3,Disturbance ecology,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",intermediate,4,Ecosystem resilience,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",intermediate,5,Assessing ecological simplification,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",advanced,1,Modeling loss of density-dependent regulation,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",advanced,2,Restoration strategies to reestablish regulation,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",advanced,3,Predictive frameworks for ecosystem stability,A2,2
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",advanced,4,Integrative studies of biodiversity loss and function,A2,3
+MMLU030,MMLU,college_biology,"A quote from a natural resources text states: ""Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors."" This implies that in a disturbed ecosystem",advanced,5,Adaptive management to counteract simplification,A2,3
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,basic,1,Residuals in linear regression,A2,3
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,basic,2,Normality assumption of errors,A2,3
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,basic,3,"Visualizing residuals (histogram, Q‑Q plot)",A2,3
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,basic,4,Transforming variables to achieve normality,A2,3
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,intermediate,1,Statistical tests for residual normality,A2,2
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,intermediate,2,Box‑Cox and Yeo‑Johnson transformations,A2,3
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,intermediate,3,Robust standard errors (Huber‑White),A2,2
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,intermediate,4,Switching to generalized linear models,A2,3
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,intermediate,5,Nonparametric regression techniques,A2,3
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,advanced,1,Bootstrap inference for non‑normal residuals,A2,2
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,advanced,2,Bayesian hierarchical modeling with non‑normal errors,A2,3
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,advanced,3,Semiparametric regression methods,A2,3
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,advanced,4,Model diagnostics and selection under non‑normality,A2,3
+MMLU059,MMLU,econometrics,Which one of the following would be a plausible response to a finding of residual non-normality?,advanced,5,Experimental design to mitigate non‑normality,A2,3
+MMLU077,MMLU,philosophy,"During his trial, Socrates argues that he would never intentionally corrupt others because:",basic,1,Socrates' trial in Athens,A2,3
+MMLU077,MMLU,philosophy,"During his trial, Socrates argues that he would never intentionally corrupt others because:",basic,2,Corruption in ancient Greek philosophy,A2,2
+MMLU077,MMLU,philosophy,"During his trial, Socrates argues that he would never intentionally corrupt others because:",basic,3,Intention in moral philosophy,A2,3
+MMLU077,MMLU,philosophy,"During his trial, Socrates argues that he would never intentionally corrupt others because:",basic,4,Virtue as knowledge (Socratic view),A2,3
+MMLU077,MMLU,philosophy,"During his trial, Socrates argues that he would never intentionally corrupt others because:",intermediate,1,Socrates' claim against intentional corruption,A2,3
+MMLU077,MMLU,philosophy,"During his trial, Socrates argues that he would never intentionally corrupt others because:",intermediate,2,The role of knowledge in preventing corruption,A2,3
+MMLU077,MMLU,philosophy,"During his trial, Socrates argues that he would never intentionally corrupt others because:",intermediate,3,Socratic method exposing ignorance,A2,2
+MMLU077,MMLU,philosophy,"During his trial, Socrates argues that he would never intentionally corrupt others because:",intermediate,4,Accidental vs intentional wrongdoing,A2,3
+MMLU077,MMLU,philosophy,"During his trial, Socrates argues that he would never intentionally corrupt others because:",advanced,1,Epistemic justification of Socrates' anti-corruption stance,A2,3
+MMLU077,MMLU,philosophy,"During his trial, Socrates argues that he would never intentionally corrupt others because:",advanced,2,Impact of Socratic intentionality on modern ethics,A2,2
+MMLU077,MMLU,philosophy,"During his trial, Socrates argues that he would never intentionally corrupt others because:",advanced,3,Comparative intentional corruption across cultures,A2,3
+MMLU077,MMLU,philosophy,"During his trial, Socrates argues that he would never intentionally corrupt others because:",advanced,4,Designing ethical education from Socratic principles,A2,3
+MMLU037,MMLU,college_chemistry,"All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",basic,1,Electromagnetic spectrum,A2,3
+MMLU037,MMLU,college_chemistry,"All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",basic,2,Ultraviolet radiation,A2,3
+MMLU037,MMLU,college_chemistry,"All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",basic,3,Protein absorption of light,A2,3
+MMLU037,MMLU,college_chemistry,"All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",basic,4,π → π* electronic transition,A2,2
+MMLU037,MMLU,college_chemistry,"All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",intermediate,1,Far‑ultraviolet (FUV) region,A2,3
+MMLU037,MMLU,college_chemistry,"All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",intermediate,2,Near‑ultraviolet (NUV) region,A2,3
+MMLU037,MMLU,college_chemistry,"All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",intermediate,3,Protein backbone absorption at ~190 nm,A2,3
+MMLU037,MMLU,college_chemistry,"All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",intermediate,4,Spectroscopic identification of protein secondary structure,A2,3
+MMLU037,MMLU,college_chemistry,"All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",advanced,1,Quantum mechanical description of π → π* transitions in proteins,A2,3
+MMLU037,MMLU,college_chemistry,"All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",advanced,2,UV absorption as a tool for protein folding studies,A2,3
+MMLU037,MMLU,college_chemistry,"All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",advanced,3,Computational modeling of protein UV spectra,A2,2
+MMLU037,MMLU,college_chemistry,"All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",advanced,4,Design of protein‑based UV sensors,A2,3
+MMLU001,MMLU,abstract_algebra,"Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",basic,1,Permutations and cycle notation,A2,1
+MMLU001,MMLU,abstract_algebra,"Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",basic,2,Order of a permutation,A2,3
+MMLU001,MMLU,abstract_algebra,"Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",basic,3,Symmetric group S_n,A2,3
+MMLU001,MMLU,abstract_algebra,"Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",intermediate,1,Subgroup generated by a permutation,A2,3
+MMLU001,MMLU,abstract_algebra,"Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",intermediate,2,Lagrange's theorem and subgroup index,A2,2
+MMLU001,MMLU,abstract_algebra,"Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",intermediate,3,Computing the order of a subgroup in S_n,A2,2
+MMLU001,MMLU,abstract_algebra,"Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",advanced,1,Index of a cyclic subgroup in S_n,A2,3
+MMLU001,MMLU,abstract_algebra,"Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",advanced,2,Conjugacy classes and cycle type,A2,2
+MMLU001,MMLU,abstract_algebra,"Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",advanced,3,Applications of subgroup index in group actions,A2,2
+MMLU022,MMLU,college_biology,All of the following statements about plant embryogenesis are correct EXCEPT:,basic,1,Definition and overview of plant embryogenesis,A2,3
+MMLU022,MMLU,college_biology,All of the following statements about plant embryogenesis are correct EXCEPT:,basic,2,"Key developmental stages: zygote, globular, heart, torpedo, cotyledonary",A2,3
+MMLU022,MMLU,college_biology,All of the following statements about plant embryogenesis are correct EXCEPT:,basic,3,Role of auxin in embryo patterning,A2,3
+MMLU022,MMLU,college_biology,All of the following statements about plant embryogenesis are correct EXCEPT:,basic,4,Differences between monocot and dicot embryogenesis,A2,3
+MMLU022,MMLU,college_biology,All of the following statements about plant embryogenesis are correct EXCEPT:,intermediate,1,"Gene regulatory networks (WOX, LEC, BBM) in embryogenesis",A2,3
+MMLU022,MMLU,college_biology,All of the following statements about plant embryogenesis are correct EXCEPT:,intermediate,2,"Hormonal cross‑talk (auxin, cytokinin, gibberellin) during embryo development",A2,3
+MMLU022,MMLU,college_biology,All of the following statements about plant embryogenesis are correct EXCEPT:,intermediate,3,Cellular differentiation and patterning mechanisms,A2,3
+MMLU022,MMLU,college_biology,All of the following statements about plant embryogenesis are correct EXCEPT:,intermediate,4,Epigenetic modifications that regulate embryonic gene expression,A2,3
+MMLU022,MMLU,college_biology,All of the following statements about plant embryogenesis are correct EXCEPT:,advanced,1,"Comparative embryogenesis across angiosperms, gymnosperms, and bryophytes",A2,3
+MMLU022,MMLU,college_biology,All of the following statements about plant embryogenesis are correct EXCEPT:,advanced,2,Somatic embryogenesis and its application in crop improvement,A2,3
+MMLU022,MMLU,college_biology,All of the following statements about plant embryogenesis are correct EXCEPT:,advanced,3,Evolutionary origins and diversification of embryogenic pathways,A2,3
+MMLU022,MMLU,college_biology,All of the following statements about plant embryogenesis are correct EXCEPT:,advanced,4,Advanced imaging and transcriptomic techniques for studying embryogenesis,A2,3
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,basic,1,Jainism: Core beliefs and goals,A2,1
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,basic,2,Definition of Samyak Jnana (Right Knowledge) in Jain doctrine,A2,1
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,basic,3,"Threefold Right Knowledge: Samyak Jnana, Samyak Darshana, Samyak Charitra",A2,2
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,basic,4,Role of Samyak Jnana in the Jain path to liberation,A2,2
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,basic,5,Basic Jain epistemology: Pramāṇa and sources of knowledge,A2,3
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,intermediate,1,"Mechanisms of acquiring Samyak Jnana: study, meditation, and guidance",A2,3
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,intermediate,2,Relationship between Samyak Jnana and the concept of Anekantavada (multiple viewpoints),A2,2
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,intermediate,3,Samyak Jnana's influence on ethical conduct and non-violence,A2,2
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,intermediate,4,Comparison of Samyak Jnana with other traditions' concept of right knowledge,A2,3
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,intermediate,5,Practical application of Samyak Jnana in daily Jain practice,A2,2
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,advanced,1,Philosophical analysis of Samyak Jnana within Jain epistemology,A2,1
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,advanced,2,Integration of Samyak Jnana with Jain cosmology and karma theory,A2,2
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,advanced,3,Contemporary scholarly debates on the interpretation of Samyak Jnana,A2,3
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,advanced,4,Designing educational curricula to teach Samyak Jnana in modern contexts,A2,3
+MMLU093,MMLU,world_religions,What is the meaning ofsamyak jnanawithin the Jaina traditions?,advanced,5,Research methodologies for studying Samyak Jnana across Jain sects,A2,3
+MMLU056,MMLU,econometrics,"If an estimator is said to be consistent, it is implied that",basic,1,Definition of estimator consistency,A2,3
+MMLU056,MMLU,econometrics,"If an estimator is said to be consistent, it is implied that",basic,2,Convergence in probability,A2,3
+MMLU056,MMLU,econometrics,"If an estimator is said to be consistent, it is implied that",basic,3,Law of Large Numbers,A2,3
+MMLU056,MMLU,econometrics,"If an estimator is said to be consistent, it is implied that",basic,4,Effect of sample size on estimator accuracy,A2,3
+MMLU056,MMLU,econometrics,"If an estimator is said to be consistent, it is implied that",intermediate,1,Consistency of maximum likelihood estimators,A2,3
+MMLU056,MMLU,econometrics,"If an estimator is said to be consistent, it is implied that",intermediate,2,Bias–variance trade‑off and consistency,A2,3
+MMLU056,MMLU,econometrics,"If an estimator is said to be consistent, it is implied that",intermediate,3,Uniform consistency across parameter space,A2,1
+MMLU056,MMLU,econometrics,"If an estimator is said to be consistent, it is implied that",intermediate,4,Relationship between consistency and efficiency,A2,3
+MMLU056,MMLU,econometrics,"If an estimator is said to be consistent, it is implied that",advanced,1,Consistency under model misspecification,A2,2
+MMLU056,MMLU,econometrics,"If an estimator is said to be consistent, it is implied that",advanced,2,Consistency of nonparametric estimators,A2,3
+MMLU056,MMLU,econometrics,"If an estimator is said to be consistent, it is implied that",advanced,3,Empirical process theory for consistency proofs,A2,2
+MMLU056,MMLU,econometrics,"If an estimator is said to be consistent, it is implied that",advanced,4,Bootstrap consistency and asymptotic validity,A2,3
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",basic,1,Particle lifetime (proper lifetime),A2,3
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",basic,2,Rest frame vs lab frame,A2,3
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",basic,3,Speed of light (c),A2,2
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",basic,4,Time dilation concept,A2,3
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",basic,5,Distance traveled formula,A2,3
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",intermediate,1,Lorentz factor (γ),A2,2
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",intermediate,2,Proper time vs dilated time,A2,3
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",intermediate,3,Relativistic decay length calculation,A2,3
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",intermediate,4,Applying time dilation to particle decay,A2,3
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",intermediate,5,Using velocity to compute distance,A2,1
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",advanced,1,Lorentz transformation of spacetime intervals,A2,3
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",advanced,2,Statistical distribution of decay times,A2,2
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",advanced,3,Experimental measurement of muon lifetime,A2,2
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",advanced,4,Relativistic kinematics in particle detectors,A2,3
+MMLU045,MMLU,college_physics,"A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",advanced,5,Uncertainty analysis in decay length measurement,A2,3
+MMLU099,MMLU,world_religions,What does the term matsuri mean?,basic,1,Definition of matsuri,A2,3
+MMLU099,MMLU,world_religions,What does the term matsuri mean?,basic,2,Etymology of the word matsuri,A2,2
+MMLU099,MMLU,world_religions,What does the term matsuri mean?,basic,3,Common contexts in which matsuri is used,A2,2
+MMLU099,MMLU,world_religions,What does the term matsuri mean?,intermediate,1,"Major types of matsuri (summer, spring, autumn, winter)",A2,2
+MMLU099,MMLU,world_religions,What does the term matsuri mean?,intermediate,2,Historical origins and evolution of matsuri,A2,2
+MMLU099,MMLU,world_religions,What does the term matsuri mean?,intermediate,3,Typical activities and rituals performed during matsuri,A2,2
+MMLU099,MMLU,world_religions,What does the term matsuri mean?,intermediate,4,Matsuri's role in fostering community identity,A2,3
+MMLU099,MMLU,world_religions,What does the term matsuri mean?,advanced,1,Anthropological analysis of matsuri's impact on social cohesion,A2,3
+MMLU099,MMLU,world_religions,What does the term matsuri mean?,advanced,2,Comparative study of matsuri and festivals in other cultures,A2,2
+MMLU099,MMLU,world_religions,What does the term matsuri mean?,advanced,3,Modern commercialization and adaptation of matsuri,A2,3
+MMLU099,MMLU,world_religions,What does the term matsuri mean?,advanced,4,Influence of matsuri on contemporary Japanese media and tourism,A2,2
+MMLU021,MMLU,college_biology,The structures that act as sites of gas exchange in a woody stem are the,basic,1,Stomata,A2,3
+MMLU021,MMLU,college_biology,The structures that act as sites of gas exchange in a woody stem are the,basic,2,Lenticels,A2,3
+MMLU021,MMLU,college_biology,The structures that act as sites of gas exchange in a woody stem are the,basic,3,Woody stem anatomy,A2,3
+MMLU021,MMLU,college_biology,The structures that act as sites of gas exchange in a woody stem are the,intermediate,1,Function of stomata in gas exchange,A2,3
+MMLU021,MMLU,college_biology,The structures that act as sites of gas exchange in a woody stem are the,intermediate,2,Function of lenticels in gas exchange,A2,2
+MMLU021,MMLU,college_biology,The structures that act as sites of gas exchange in a woody stem are the,intermediate,3,Gas exchange mechanisms in woody stems,A2,3
+MMLU021,MMLU,college_biology,The structures that act as sites of gas exchange in a woody stem are the,advanced,1,Regulation of stomatal opening in woody stems,A2,2
+MMLU021,MMLU,college_biology,The structures that act as sites of gas exchange in a woody stem are the,advanced,2,Adaptation of lenticels to environmental conditions,A2,3
+MMLU021,MMLU,college_biology,The structures that act as sites of gas exchange in a woody stem are the,advanced,3,Integration of gas exchange with water transport in woody stems,A2,3
+MMLU029,MMLU,college_biology,Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?,basic,1,Mitochondrial DNA structure and function,A2,3
+MMLU029,MMLU,college_biology,Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?,basic,2,Maternal inheritance of mtDNA,A2,3
+MMLU029,MMLU,college_biology,Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?,basic,3,High copy number of mtDNA in cells,A2,2
+MMLU029,MMLU,college_biology,Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?,basic,4,Ease of PCR amplification of mtDNA,A2,2
+MMLU029,MMLU,college_biology,Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?,intermediate,1,Lack of recombination in mtDNA,A2,3
+MMLU029,MMLU,college_biology,Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?,intermediate,2,Higher mutation rate of mtDNA compared to nuclear DNA,A2,3
+MMLU029,MMLU,college_biology,Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?,intermediate,3,Use of mtDNA haplotypes for phylogenetic inference,A2,3
+MMLU029,MMLU,college_biology,Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?,intermediate,4,Maternal lineage tracing in animal populations,A2,2
+MMLU029,MMLU,college_biology,Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?,advanced,1,Coalescent modeling of mtDNA to reconstruct population history,A2,2
+MMLU029,MMLU,college_biology,Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?,advanced,2,Estimating effective population size from mtDNA variation,A2,3
+MMLU029,MMLU,college_biology,Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?,advanced,3,Phylogeographic patterns revealed by mtDNA haplotype networks,A2,2
+MMLU029,MMLU,college_biology,Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?,advanced,4,Assessing the limitations and biases of mtDNA in population genetics,A2,3
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,basic,1,Definition of Tripitaka,A2,2
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,basic,2,Etymology of the term Tripitaka,A2,2
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,basic,3,"Three Baskets: Vinaya, Sutra, Abhidharma",A2,3
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,intermediate,1,Historical development of the Tripitaka,A2,2
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,intermediate,2,Tripitaka's role in Theravada Buddhism,A2,3
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,intermediate,3,Tripitaka in Mahayana traditions,A2,3
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,intermediate,4,Canonical transmission and preservation,A2,0
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,intermediate,5,Interpretation of Tripitaka across cultures,A2,2
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,advanced,1,"Comparative analysis of Pali, Sanskrit, and Chinese Tripitaka editions",A2,2
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,advanced,2,Textual criticism and reconstruction of the Tripitaka,A2,3
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,advanced,3,Philosophical themes and doctrinal evolution within the Tripitaka,A2,2
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,advanced,4,Tripitaka's influence on Buddhist scholasticism and practice,A2,3
+MMLU094,MMLU,world_religions,What does the Tripitaka mean?,advanced,5,Digital humanities and modern scholarship on the Tripitaka,A2,3
+MMLU014,MMLU,business_ethics,"What term can be used to describe 'the hypothetical agreement between member of society and those who govern it which establishes the inter-relationships, rights and responsibilities on a fair basis'?",basic,1,Social contract,A2,2
+MMLU014,MMLU,business_ethics,"What term can be used to describe 'the hypothetical agreement between member of society and those who govern it which establishes the inter-relationships, rights and responsibilities on a fair basis'?",basic,2,Political legitimacy,A2,3
+MMLU014,MMLU,business_ethics,"What term can be used to describe 'the hypothetical agreement between member of society and those who govern it which establishes the inter-relationships, rights and responsibilities on a fair basis'?",basic,3,Citizen-state relationship,A2,2
+MMLU014,MMLU,business_ethics,"What term can be used to describe 'the hypothetical agreement between member of society and those who govern it which establishes the inter-relationships, rights and responsibilities on a fair basis'?",intermediate,1,"Hobbes, Locke, Rousseau social contract theories",A2,3
+MMLU014,MMLU,business_ethics,"What term can be used to describe 'the hypothetical agreement between member of society and those who govern it which establishes the inter-relationships, rights and responsibilities on a fair basis'?",intermediate,2,Consent and rights in modern governance,A2,2
+MMLU014,MMLU,business_ethics,"What term can be used to describe 'the hypothetical agreement between member of society and those who govern it which establishes the inter-relationships, rights and responsibilities on a fair basis'?",intermediate,3,Application of social contract to democratic institutions,A2,1
+MMLU014,MMLU,business_ethics,"What term can be used to describe 'the hypothetical agreement between member of society and those who govern it which establishes the inter-relationships, rights and responsibilities on a fair basis'?",advanced,1,Comparative critique of social contract theories,A2,2
+MMLU014,MMLU,business_ethics,"What term can be used to describe 'the hypothetical agreement between member of society and those who govern it which establishes the inter-relationships, rights and responsibilities on a fair basis'?",advanced,2,Social contract in constitutional law,A2,3
+MMLU014,MMLU,business_ethics,"What term can be used to describe 'the hypothetical agreement between member of society and those who govern it which establishes the inter-relationships, rights and responsibilities on a fair basis'?",advanced,3,Contemporary debates on digital governance and social contract,A2,2
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,basic,1,Universal moral theory,A2,3
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,basic,2,Cultural relativism,A2,3
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,basic,3,Key differences between universalism and relativism,A2,3
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,basic,4,Examples of universal moral principles,A2,2
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,basic,5,Examples of cultural moral codes,A2,3
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,intermediate,1,Philosophical foundations of universalism,A2,3
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,intermediate,2,Arguments for and against cultural relativism,A2,3
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,intermediate,3,Case studies of universal moral claims in international law,A2,3
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,intermediate,4,Role of rationality in universal moral theory,A2,3
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,intermediate,5,Historical development of moral relativism,A2,2
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,advanced,1,Critiques of universal moral theory from postmodern perspectives,A2,3
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,advanced,2,Integration of universalism and relativism in global ethics,A2,3
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,advanced,3,Designing ethical frameworks that respect cultural diversity while upholding universal principles,A2,2
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,advanced,4,Research on cross-cultural moral judgments and their implications for universal ethics,A2,2
+MMLU012,MMLU,business_ethics,_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.,advanced,5,Theoretical models of moral pluralism,A2,2
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,basic,1,Sound wave fundamentals,A2,3
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,basic,2,Speed of sound in air,A2,3
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,basic,3,Frequency–wavelength relationship,A2,3
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,basic,4,Diffraction of waves,A2,2
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,basic,5,Slit geometry and aperture size,A2,3
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,intermediate,1,Diffraction minima condition (sinθ = mλ / a),A2,2
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,intermediate,2,Angle–wavelength–slit width relationship,A2,3
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,intermediate,3,Calculating wavelength from a given diffraction angle,A2,3
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,intermediate,4,Converting wavelength to frequency using sound speed,A2,2
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,advanced,1,Acoustic diffraction in speaker enclosure design,A2,2
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,advanced,2,Impact of diffraction on speaker performance,A2,2
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,advanced,3,Wave interference patterns in rectangular slits,A2,3
+MMLU050,MMLU,college_physics,Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?,advanced,4,Optimization of slit dimensions for desired acoustic output,A2,3
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",basic,1,Definition of marketing communications,A2,3
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",basic,2,Core ethical principles in advertising,A2,2
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",basic,3,Transparency and honesty in messaging,A2,1
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",basic,4,Consumer rights and protection,A2,3
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",basic,5,Regulatory overview of advertising standards,A2,3
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",intermediate,1,Psychological influence and consumer manipulation,A2,3
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",intermediate,2,Targeted advertising and privacy concerns,A2,1
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",intermediate,3,Stereotype reinforcement in marketing,A2,3
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",intermediate,4,Creating artificial needs through advertising,A2,2
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",intermediate,5,Ethical decision‑making frameworks for marketers,A2,3
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",advanced,1,Designing ethically responsible marketing strategies,A2,3
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",advanced,2,Ethical use of AI and data in advertising,A2,3
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",advanced,3,Assessing societal impact of marketing communications,A2,3
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",advanced,4,Developing global ethical guidelines for digital marketing,A2,3
+MMLU013,MMLU,business_ethics,"Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",advanced,5,Balancing profit motives with social responsibility in marketing,A2,3
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",basic,1,Sound wave fundamentals,A2,3
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",basic,2,Organ pipe structure,A2,2
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",basic,3,Open pipe harmonic series,A2,3
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",basic,4,Closed pipe harmonic series,A2,3
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",basic,5,Frequency of harmonics,A2,2
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",intermediate,1,Boundary conditions at pipe ends,A2,3
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",intermediate,2,Node and antinode placement,A2,2
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",intermediate,3,Effect of closing one end on harmonic modes,A2,3
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",intermediate,4,Selection rules for surviving harmonics,A2,3
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",intermediate,5,Relationship between open and closed pipe frequencies,A2,3
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",advanced,1,Acoustic wave equation in pipes,A2,3
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",advanced,2,Modal analysis of open vs closed pipes,A2,3
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",advanced,3,Impact of pipe length and speed of sound on harmonics,A2,3
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",advanced,4,Design considerations for organ pipes with mixed boundary conditions,A2,3
+MMLU047,MMLU,college_physics,"The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",advanced,5,Research on acoustic impedance and harmonic suppression,A2,3
+MMLU046,MMLU,college_physics,"A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",basic,1,Definition of resolving power in spectroscopy,A2,3
+MMLU046,MMLU,college_physics,"A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",basic,2,Rayleigh criterion for distinguishing two spectral lines,A2,3
+MMLU046,MMLU,college_physics,"A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",basic,3,Fundamentals of a diffraction grating,A2,3
+MMLU046,MMLU,college_physics,"A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",basic,4,Wavelength difference and its significance,A2,3
+MMLU046,MMLU,college_physics,"A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",intermediate,1,Formula for grating resolving power: R = mN,A2,3
+MMLU046,MMLU,college_physics,"A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",intermediate,2,Effect of diffraction order (m) on resolution,A2,2
+MMLU046,MMLU,college_physics,"A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",intermediate,3,Role of the number of illuminated slits (N) in resolution,A2,3
+MMLU046,MMLU,college_physics,"A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",intermediate,4,Practical determination of Δλ from measured spectra,A2,3
+MMLU046,MMLU,college_physics,"A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",advanced,1,"Optimization of grating parameters (blaze angle, groove density) for high resolution",A2,2
+MMLU046,MMLU,college_physics,"A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",advanced,2,Trade‑offs between spectral resolution and instrument throughput,A2,3
+MMLU046,MMLU,college_physics,"A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",advanced,3,"Advanced techniques for resolving very close spectral lines (e.g., Fourier transform spectroscopy)",A2,3
+MMLU046,MMLU,college_physics,"A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",advanced,4,Design considerations for spectrometer components to achieve desired resolving power,A2,3
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",basic,1,Finite vs Infinite Series,A2,3
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",basic,2,Causality in Time,A2,2
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",basic,3,William Lane Craig,A2,3
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",basic,4,Cosmological Argument,A2,3
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",basic,5,First Cause,A2,2
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",intermediate,1,Infinite Regress of Events,A2,3
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",intermediate,2,Metaphysical Necessity,A2,3
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",intermediate,3,Cosmological Principle,A2,2
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",intermediate,4,Argument from Contingency,A2,2
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",intermediate,5,Modal Logic of Necessity,A2,3
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",advanced,1,Ontological Implications of a First Cause,A2,3
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",advanced,2,Theological Naturalism vs Theism,A2,3
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",advanced,3,Counterarguments: Eternal Universe Models,A2,2
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",advanced,4,Modal Ontology and Possible Worlds,A2,3
+MMLU079,MMLU,philosophy,"Craig argues that the series of events in time cannot be actually infinite, so we know that _____.",advanced,5,Integration of Physics and Philosophy in Cosmology,A2,2
+MMLU035,MMLU,college_chemistry,Calculate the spin angular momentum of 43Ca. [I = 7⁄2],basic,1,Nuclear spin quantum number,A2,3
+MMLU035,MMLU,college_chemistry,Calculate the spin angular momentum of 43Ca. [I = 7⁄2],basic,2,Angular momentum quantization,A2,3
+MMLU035,MMLU,college_chemistry,Calculate the spin angular momentum of 43Ca. [I = 7⁄2],basic,3,Reduced Planck constant (ħ),A2,3
+MMLU035,MMLU,college_chemistry,Calculate the spin angular momentum of 43Ca. [I = 7⁄2],basic,4,Spin angular momentum magnitude formula,A2,3
+MMLU035,MMLU,college_chemistry,Calculate the spin angular momentum of 43Ca. [I = 7⁄2],intermediate,1,Using L = √[I(I+1)] ħ to compute magnitude,A2,3
+MMLU035,MMLU,college_chemistry,Calculate the spin angular momentum of 43Ca. [I = 7⁄2],intermediate,2,Units of angular momentum (J·s),A2,3
+MMLU035,MMLU,college_chemistry,Calculate the spin angular momentum of 43Ca. [I = 7⁄2],intermediate,3,Applying the formula to 43Ca with I = 7/2,A2,3
+MMLU035,MMLU,college_chemistry,Calculate the spin angular momentum of 43Ca. [I = 7⁄2],intermediate,4,Relation between spin and magnetic moment,A2,3
+MMLU035,MMLU,college_chemistry,Calculate the spin angular momentum of 43Ca. [I = 7⁄2],advanced,1,Hyperfine interaction and energy splitting,A2,2
+MMLU035,MMLU,college_chemistry,Calculate the spin angular momentum of 43Ca. [I = 7⁄2],advanced,2,Nuclear magnetic resonance (NMR) of 43Ca,A2,3
+MMLU035,MMLU,college_chemistry,Calculate the spin angular momentum of 43Ca. [I = 7⁄2],advanced,3,Spin Hamiltonian for nuclear spins,A2,3
+MMLU035,MMLU,college_chemistry,Calculate the spin angular momentum of 43Ca. [I = 7⁄2],advanced,4,Nuclear structure models influencing spin,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,basic,1,Definition of a group,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,basic,2,Definition of a group homomorphism,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,basic,3,Definition of the kernel of a homomorphism,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,basic,4,Trivial homomorphism,A2,2
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,basic,5,Finite vs infinite groups,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,intermediate,1,Kernel as a normal subgroup,A2,2
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,intermediate,2,Injectivity and trivial kernel,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,intermediate,3,Image of a homomorphism,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,intermediate,4,Homomorphisms between finite and infinite groups,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,intermediate,5,First Isomorphism Theorem,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,advanced,1,Existence of nontrivial homomorphisms from finite to infinite groups,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,advanced,2,Structure of infinite groups that contain finite subgroups,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,advanced,3,Classification of homomorphisms via group extensions,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,advanced,4,Applications of kernel properties in advanced group theory,A2,3
+MMLU006,MMLU,abstract_algebra,Statement 1 | A homomorphism may have an empty kernel. Statement 2 | It is not possible to have a nontrivial homomorphism of some finite group into some infinite group.,advanced,5,Research directions: group cohomology and homological algebra,A2,3
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",basic,1,"Definition of a GARCH(2,2) model",A2,2
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",basic,2,Concept of constant conditional variance,A2,3
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",basic,3,Fundamentals of the likelihood ratio test,A2,2
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",basic,4,Nested model hypothesis testing framework,A2,3
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",intermediate,1,"Parameter restrictions that reduce GARCH(2,2) to constant variance",A2,3
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",intermediate,2,Asymptotic chi‑square distribution of the LR statistic,A2,3
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",intermediate,3,Maximum likelihood estimation of GARCH parameters,A2,2
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",intermediate,4,"Stationarity and identification conditions for GARCH(2,2)",A2,3
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",intermediate,5,Formulating the null and alternative hypotheses for variance restriction,A2,3
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",advanced,1,Power and size properties of the LR test in GARCH settings,A2,3
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",advanced,2,Robustness of the LR test to model misspecification,A2,3
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",advanced,3,Bootstrap and simulation techniques for LR test calibration,A2,2
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",advanced,4,Comparison with Wald and Lagrange multiplier tests for GARCH,A2,2
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",advanced,5,"Model selection criteria (AIC, BIC) in the context of GARCH testing",A2,3
+MMLU060,MMLU,econometrics,"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",advanced,6,Integration of variance‑restriction testing into broader volatility modeling strategies,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,basic,1,UN Charter overview,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,basic,2,Article 103 text and purpose,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,basic,3,Hierarchy of international obligations,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,basic,4,Definition of treaty obligations,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,basic,5,Concept of consistency in international law,A2,2
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,intermediate,1,Legal interpretation of Article 103,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,intermediate,2,Case law on Article 103 conflicts,A2,2
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,intermediate,3,Interaction with other Charter provisions,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,intermediate,4,State practice and customary law regarding Article 103,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,intermediate,5,Mechanisms for resolving conflicts under Article 103,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,advanced,1,Limits and boundaries of Article 103 application,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,advanced,2,Scholarly critiques of Article 103 effectiveness,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,advanced,3,Comparative analysis with other international legal frameworks,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,advanced,4,Potential reforms or amendments to Article 103,A2,3
+MMLU070,MMLU,international_law,Are there any limits to the application of article 103 of the UN Charter?,advanced,5,Impact of Article 103 on global governance and treaty-making,A2,3

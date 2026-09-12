@@ -1,0 +1,776 @@
+import pandas as pd
+import numpy as np
+from scipy.stats import mannwhitneyu
+from sklearn.metrics import cohen_kappa_score
+import itertools
+
+# ============================================================
+# LLM-QTH HUMAN VALIDATION
+# Cross-domain / Domain-agnostic evaluation
+# ============================================================
+
+# ------------------------------------------------------------
+# 1. FILE PATHS
+# ------------------------------------------------------------
+
+ffiles = {
+    "A1_topic": "A1 Topic RElevance.csv",
+    "A1_hierarchy": "A1_hierarchy.csv",
+
+    "A2_topic": "A2_topic_releva.csv",
+    "A2_hierarchy": "A2 hierrachy.csv",
+
+    "A3_topic": "A3 topic re.csv",
+    "A3_hierarchy": "A3 hierarchy.csv"
+}
+
+# Hierarchy evaluation criteria
+metrics = [
+    "coherence_0_3",
+    "level_appropriateness_0_3",
+    "progression_0_3",
+    "non_redundancy_0_3"
+]
+
+
+# ============================================================
+# 2. LOAD ALL HUMAN RATINGS
+# ============================================================
+
+topic_frames = []
+hierarchy_frames = []
+
+for annotator in ["A1", "A2", "A3"]:
+
+    topic_df = pd.read_csv(
+        files[f"{annotator}_topic"]
+    )
+
+    hierarchy_df = pd.read_csv(
+        files[f"{annotator}_hierarchy"]
+    )
+
+    topic_frames.append(topic_df)
+    hierarchy_frames.append(hierarchy_df)
+
+
+topic = pd.concat(
+    topic_frames,
+    ignore_index=True
+)
+
+hierarchy = pd.concat(
+    hierarchy_frames,
+    ignore_index=True
+)
+
+
+print("\n======================================")
+print("DATA LOADED")
+print("======================================")
+
+print("Topic ratings:", len(topic))
+print("Hierarchy ratings:", len(hierarchy))
+
+
+# ============================================================
+# 3. CHECK NUMBER OF QUERIES
+# ============================================================
+
+query_info = (
+    hierarchy[
+        [
+            "query_id",
+            "source_dataset",
+            "subject",
+            "query"
+        ]
+    ]
+    .drop_duplicates()
+)
+
+print("\nTotal unique queries:")
+print(query_info["query_id"].nunique())
+
+
+# ============================================================
+# 4. DATASET DISTRIBUTION
+# ============================================================
+
+dataset_distribution = (
+    query_info
+    .groupby("source_dataset")
+    .size()
+    .reset_index(name="number_of_queries")
+)
+
+print("\n======================================")
+print("DATASET DISTRIBUTION")
+print("======================================")
+
+print(dataset_distribution)
+
+
+# ============================================================
+# 5. SUBJECT DISTRIBUTION
+# ============================================================
+
+subject_distribution = (
+    query_info
+    .groupby(
+        ["source_dataset", "subject"]
+    )
+    .size()
+    .reset_index(name="number_of_queries")
+)
+
+print("\n======================================")
+print("SUBJECT COVERAGE")
+print("======================================")
+
+print(subject_distribution)
+
+
+# ============================================================
+# 6. TOPIC RELEVANCE
+#
+# IMPORTANT:
+# First average topics within each query for each annotator.
+#
+# This ensures that a query generating more topics does not
+# receive more weight in the final human evaluation.
+# ============================================================
+
+query_annotator_topic = (
+    topic
+    .groupby(
+        [
+            "query_id",
+            "source_dataset",
+            "subject",
+            "annotator_id"
+        ],
+        as_index=False
+    )["topic_relevance_0_3"]
+    .mean()
+)
+
+query_annotator_topic.rename(
+    columns={
+        "topic_relevance_0_3":
+        "topic_relevance_mean"
+    },
+    inplace=True
+)
+
+
+# ============================================================
+# 7. OVERALL TOPIC RELEVANCE
+# ============================================================
+
+overall_topic_mean = (
+    query_annotator_topic[
+        "topic_relevance_mean"
+    ].mean()
+)
+
+overall_topic_sd = (
+    query_annotator_topic[
+        "topic_relevance_mean"
+    ].std()
+)
+
+print("\n======================================")
+print("OVERALL TOPIC RELEVANCE")
+print("======================================")
+
+print(
+    f"Mean = {overall_topic_mean:.3f}"
+)
+
+print(
+    f"SD   = {overall_topic_sd:.3f}"
+)
+
+
+# ============================================================
+# 8. TOPIC RELEVANCE BY DATASET
+# ============================================================
+
+topic_by_dataset = (
+    query_annotator_topic
+    .groupby("source_dataset")[
+        "topic_relevance_mean"
+    ]
+    .agg(["mean", "std", "count"])
+)
+
+print("\n======================================")
+print("TOPIC RELEVANCE BY DATASET")
+print("======================================")
+
+print(
+    topic_by_dataset.round(3)
+)
+
+
+# ============================================================
+# 9. TOPIC RELEVANCE BY ANNOTATOR
+# ============================================================
+
+topic_by_annotator = (
+    query_annotator_topic
+    .groupby("annotator_id")[
+        "topic_relevance_mean"
+    ]
+    .agg(["mean", "std"])
+)
+
+print("\n======================================")
+print("TOPIC RELEVANCE BY ANNOTATOR")
+print("======================================")
+
+print(
+    topic_by_annotator.round(3)
+)
+
+
+# ============================================================
+# 10. OVERALL HIERARCHY QUALITY
+# ============================================================
+
+print("\n======================================")
+print("OVERALL HIERARCHY QUALITY")
+print("======================================")
+
+for metric in metrics:
+
+    mean_value = hierarchy[metric].mean()
+    sd_value = hierarchy[metric].std()
+
+    print(
+        f"{metric}: "
+        f"{mean_value:.3f} ± {sd_value:.3f}"
+    )
+
+
+# ============================================================
+# 11. HIERARCHY QUALITY BY DATASET
+# ============================================================
+
+hierarchy_by_dataset = (
+    hierarchy
+    .groupby("source_dataset")[
+        metrics
+    ]
+    .mean()
+)
+
+print("\n======================================")
+print("HIERARCHY QUALITY BY DATASET")
+print("======================================")
+
+print(
+    hierarchy_by_dataset.round(3)
+)
+
+
+# ============================================================
+# 12. AVERAGE ANNOTATORS FIRST
+#
+# Each query becomes one independent observation.
+# This is appropriate for MMLU vs MedMCQA comparison.
+# ============================================================
+
+query_topic = (
+    query_annotator_topic
+    .groupby(
+        [
+            "query_id",
+            "source_dataset",
+            "subject"
+        ],
+        as_index=False
+    )["topic_relevance_mean"]
+    .mean()
+)
+
+
+query_hierarchy = (
+    hierarchy
+    .groupby(
+        [
+            "query_id",
+            "source_dataset",
+            "subject"
+        ],
+        as_index=False
+    )[metrics]
+    .mean()
+)
+
+
+# ============================================================
+# 13. EFFECT SIZE FUNCTION
+# CLIFF'S DELTA
+# ============================================================
+
+def cliffs_delta(x, y):
+
+    x = np.asarray(x)
+    y = np.asarray(y)
+
+    greater = 0
+    lower = 0
+
+    for a in x:
+
+        greater += np.sum(a > y)
+        lower += np.sum(a < y)
+
+    delta = (
+        greater - lower
+    ) / (len(x) * len(y))
+
+    return delta
+
+
+# ============================================================
+# 14. MMLU vs MEDMCQA:
+# TOPIC RELEVANCE
+# ============================================================
+
+mmlu_topic = (
+    query_topic[
+        query_topic["source_dataset"]
+        == "MMLU"
+    ]["topic_relevance_mean"]
+)
+
+med_topic = (
+    query_topic[
+        query_topic["source_dataset"]
+        == "MedMCQA"
+    ]["topic_relevance_mean"]
+)
+
+
+u_topic, p_topic = mannwhitneyu(
+    mmlu_topic,
+    med_topic,
+    alternative="two-sided"
+)
+
+
+topic_delta = cliffs_delta(
+    mmlu_topic.values,
+    med_topic.values
+)
+
+
+print("\n======================================")
+print("MMLU vs MedMCQA: TOPIC RELEVANCE")
+print("======================================")
+
+print(
+    f"MMLU mean = "
+    f"{mmlu_topic.mean():.3f}"
+)
+
+print(
+    f"MedMCQA mean = "
+    f"{med_topic.mean():.3f}"
+)
+
+print(
+    f"Mann-Whitney U = "
+    f"{u_topic:.3f}"
+)
+
+print(
+    f"p-value = "
+    f"{p_topic:.4f}"
+)
+
+print(
+    f"Cliff's delta = "
+    f"{topic_delta:.3f}"
+)
+
+
+# ============================================================
+# 15. MMLU vs MEDMCQA:
+# HIERARCHY METRICS
+# ============================================================
+
+comparison_results = []
+
+for metric in metrics:
+
+    mmlu = (
+        query_hierarchy[
+            query_hierarchy[
+                "source_dataset"
+            ] == "MMLU"
+        ][metric]
+    )
+
+    med = (
+        query_hierarchy[
+            query_hierarchy[
+                "source_dataset"
+            ] == "MedMCQA"
+        ][metric]
+    )
+
+    U, p = mannwhitneyu(
+        mmlu,
+        med,
+        alternative="two-sided"
+    )
+
+    delta = cliffs_delta(
+        mmlu.values,
+        med.values
+    )
+
+    comparison_results.append(
+        {
+            "metric": metric,
+
+            "MMLU_mean":
+                mmlu.mean(),
+
+            "MedMCQA_mean":
+                med.mean(),
+
+            "U":
+                U,
+
+            "p_value":
+                p,
+
+            "cliffs_delta":
+                delta
+        }
+    )
+
+
+comparison_df = pd.DataFrame(
+    comparison_results
+)
+
+
+print("\n======================================")
+print("MMLU vs MEDMCQA")
+print("HIERARCHY COMPARISON")
+print("======================================")
+
+print(
+    comparison_df.round(4)
+)
+
+
+# ============================================================
+# 16. SUBJECT-WISE TOPIC RELEVANCE
+# ============================================================
+
+subject_topic = (
+    query_topic
+    .groupby(
+        [
+            "source_dataset",
+            "subject"
+        ]
+    )["topic_relevance_mean"]
+    .agg(
+        [
+            "mean",
+            "std",
+            "count"
+        ]
+    )
+    .reset_index()
+)
+
+
+print("\n======================================")
+print("SUBJECT-WISE TOPIC RELEVANCE")
+print("======================================")
+
+print(
+    subject_topic.round(3)
+)
+
+
+# ============================================================
+# 17. SUBJECT-WISE HIERARCHY QUALITY
+# ============================================================
+
+subject_hierarchy = (
+    query_hierarchy
+    .groupby(
+        [
+            "source_dataset",
+            "subject"
+        ]
+    )[metrics]
+    .mean()
+    .reset_index()
+)
+
+
+print("\n======================================")
+print("SUBJECT-WISE HIERARCHY QUALITY")
+print("======================================")
+
+print(
+    subject_hierarchy.round(3)
+)
+
+
+# ============================================================
+# 18. INTER-ANNOTATOR AGREEMENT
+#
+# Pairwise quadratic weighted Cohen's kappa
+# ============================================================
+
+agreement_results = []
+
+
+# ------------------------------------------------------------
+# Topic relevance agreement
+# ------------------------------------------------------------
+
+topic_key = [
+    "query_id",
+    "level",
+    "rank_within_level",
+    "topic"
+]
+
+
+topic_wide = (
+    topic
+    .pivot_table(
+        index=topic_key,
+        columns="annotator_id",
+        values="topic_relevance_0_3",
+        aggfunc="first"
+    )
+    .dropna()
+)
+
+
+for a, b in itertools.combinations(
+    ["A1", "A2", "A3"],
+    2
+):
+
+    kappa = cohen_kappa_score(
+        topic_wide[a],
+        topic_wide[b],
+        weights="quadratic"
+    )
+
+    agreement_results.append(
+        {
+            "measure":
+                "topic_relevance",
+
+            "annotator_pair":
+                f"{a}-{b}",
+
+            "weighted_kappa":
+                kappa,
+
+            "n_items":
+                len(topic_wide)
+        }
+    )
+
+
+# ------------------------------------------------------------
+# Hierarchy agreement
+# ------------------------------------------------------------
+
+for metric in metrics:
+
+    hierarchy_wide = (
+        hierarchy
+        .pivot_table(
+            index="query_id",
+            columns="annotator_id",
+            values=metric,
+            aggfunc="first"
+        )
+        .dropna()
+    )
+
+    for a, b in itertools.combinations(
+        ["A1", "A2", "A3"],
+        2
+    ):
+
+        kappa = cohen_kappa_score(
+            hierarchy_wide[a],
+            hierarchy_wide[b],
+            weights="quadratic"
+        )
+
+        agreement_results.append(
+            {
+                "measure":
+                    metric,
+
+                "annotator_pair":
+                    f"{a}-{b}",
+
+                "weighted_kappa":
+                    kappa,
+
+                "n_items":
+                    len(hierarchy_wide)
+            }
+        )
+
+
+agreement_df = pd.DataFrame(
+    agreement_results
+)
+
+
+print("\n======================================")
+print("PAIRWISE INTER-ANNOTATOR AGREEMENT")
+print("======================================")
+
+print(
+    agreement_df.round(3)
+)
+
+
+print("\nMean weighted kappa:")
+
+print(
+    agreement_df
+    .groupby("measure")[
+        "weighted_kappa"
+    ]
+    .mean()
+    .round(3)
+)
+
+
+# ============================================================
+# 19. SAVE ALL RESULTS
+# ============================================================
+
+dataset_distribution.to_csv(
+    "dataset_distribution.csv",
+    index=False
+)
+
+subject_distribution.to_csv(
+    "subject_distribution.csv",
+    index=False
+)
+
+topic_by_dataset.to_csv(
+    "topic_relevance_by_dataset.csv"
+)
+
+topic_by_annotator.to_csv(
+    "topic_relevance_by_annotator.csv"
+)
+
+hierarchy_by_dataset.to_csv(
+    "hierarchy_quality_by_dataset.csv"
+)
+
+comparison_df.to_csv(
+    "MMLU_vs_MedMCQA_hierarchy_tests.csv",
+    index=False
+)
+
+subject_topic.to_csv(
+    "subject_topic_relevance.csv",
+    index=False
+)
+
+subject_hierarchy.to_csv(
+    "subject_hierarchy_quality.csv",
+    index=False
+)
+
+agreement_df.to_csv(
+    "inter_annotator_agreement.csv",
+    index=False
+)
+
+
+# ============================================================
+# 20. FINAL INTERPRETATION
+# ============================================================
+
+print("\n======================================")
+print("FINAL INTERPRETATION")
+print("======================================")
+
+if p_topic >= 0.05:
+
+    print(
+        "Topic relevance did not differ "
+        "significantly between MMLU and MedMCQA."
+    )
+
+else:
+
+    print(
+        "Topic relevance differed significantly "
+        "between MMLU and MedMCQA."
+    )
+
+
+for _, row in comparison_df.iterrows():
+
+    if row["p_value"] >= 0.05:
+
+        conclusion = (
+            "No significant dataset difference"
+        )
+
+    else:
+
+        conclusion = (
+            "Significant dataset difference"
+        )
+
+    print(
+        row["metric"],
+        ":",
+        conclusion,
+        f"(p={row['p_value']:.4f})"
+    )
+
+
+print(
+    "\nIf most or all measures show p > 0.05 "
+    "and similar scores across datasets, "
+    "the human evaluation provides evidence "
+    "that LLM-QTH maintains comparable quality "
+    "across the evaluated domains."
+)
+
+print(
+    "\nUse the wording 'evidence for cross-domain "
+    "or domain-agnostic applicability', rather "
+    "than claiming universal domain independence."
+)
+
+print(
+    "\nOntology independence should be justified "
+    "separately from the system architecture: "
+    "LLM-QTH does not require an external ontology, "
+    "taxonomy, knowledge graph, or domain-specific "
+    "hierarchy at inference time."
+)
